@@ -4,7 +4,16 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ApercuBlack: 'ApercuBlack, sans',
+        ApercuBold: 'ApercuBold, sans',
+        ApercuMedium: 'ApercuMedium, sans',
+        ApercuRegular: 'ApercuRegular, sans',
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
