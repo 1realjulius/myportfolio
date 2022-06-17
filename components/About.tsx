@@ -3,17 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const About = () => {
-  const renderThemeChanger =() => {
-    return(
-      <button className='bg-gray-200 dark:bg-[#24292f] dark:text-black rounded-full p-1'>
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-      </svg>
-      </button>
-    )
-  }
-
-
+ 
   return (
     <div>
       <div className=' text-black dark:text-white flex flex-col px-4 md:grid md:grid-cols-3 md:gap-4 md:px-4 items-center justify-center'>
@@ -21,7 +11,6 @@ const About = () => {
           <div className='flex items-center justify-between'>
             <Image src="/Assets/newmemoji.svg" width={72} height={72} alt="" />
             {/* put the dark mode toggle here */}
-            {renderThemeChanger()}
           </div>
           <div className='flex flex-col'>
             <h1 className='text-base'>Hey there,👋</h1>
