@@ -6,10 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        ApercuBlack: 'ApercuBlack, sans',
         ApercuBold: 'ApercuBold, sans',
         ApercuMedium: 'ApercuMedium, sans',
-        ApercuRegular: 'ApercuRegular, sans',
       },
     },
   },

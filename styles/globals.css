@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base{
-    @font-face{
-        font-family: 'ApercuBlack';
-        src: url("/Fonts/ApercuPro-Black.woff") format("woff"),url("/Fonts/ApercuPro-Black.woff2") format("woff2");
-      }
       @font-face{
         font-family: 'ApercuBold';
         src: url("/Fonts/ApercuPro-Bold.woff") format("woff"),url("/Fonts/ApercuPro-Bold.woff2") format("woff2");
@@ -14,9 +10,5 @@
       @font-face{
         font-family: 'ApercuMedium';
         src: url("/Fonts/ApercuPro-Medium.woff") format("woff"),url("/Fonts/ApercuPro-Medium.woff2") format("woff2");
-      }
-      @font-face{
-        font-family: 'ApercuRegular';
-        src: url("/Fonts/ApercuPro-Regular.woff") format("woff"),url("/Fonts/ApercuPro-Regular.woff2") format("woff2");
       }
     }
