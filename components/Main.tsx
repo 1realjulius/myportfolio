@@ -1,8 +1,28 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { useState } from 'react'
 
 const Main = () => {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [submitted, setSubmitted] = useState(false)
+
+  const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => { 
+    e.preventDefault()
+    console.log('Sending')
+  let data = {
+      name,
+      email,
+      message
+    };
+    fetch('/api/contact', {
+      method: 'post',
+      body: JSON.stringify(data),
+    });
+    console.log(data);
+  };
+
   return (
     <div>
       <div className='text-black dark:text-white flex flex-col md:grid md:grid-cols-3 md:gap-4 gap-2 px-4 md:px-4 py-2'>
@@ -39,30 +59,51 @@ const Main = () => {
               <h1 className='px-4'>Contact Me</h1>
               <p className='px-4 text-sm  text-gray-500 dark:text-white'>Contact me with a short message on how i could be of help to your great idea. </p>
               <div className="px-4 py-2 bg-white dark:bg-[#0d1117] space-y-6">
+                <div className='md:grid md:grid-cols-2 gap-2'>
+                  <div className="grid grid-cols-3 gap-6">
+                  <div className="col-span-3 sm:col-span-2">
+                    <label htmlFor="name" className="block text-sm dark:text-white font-medium text-gray-700">
+                      Name
+                    </label>
+                    <div className="mt-1 flex rounded-md shadow-sm">
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        onChange={(e)=>{setName(e.target.value)}}
+                        className="focus:ring-indigo-500 dark:border-[#24292f] dark:bg-[#0d1117] focus:border-indigo-500 flex-1 block w-full rounded-md sm:text-sm text-sm dark:text-white border-gray-300 border"
+                        placeholder="your name"
+                      />
+                    </div>
+                  </div>
+                </div>
                 <div className="grid grid-cols-3 gap-6">
                   <div className="col-span-3 sm:col-span-3">
-                    <label htmlFor="clientMail" className="block text-sm dark:text-white font-medium text-gray-700">
+                    <label htmlFor="email" className="block text-sm dark:text-white font-medium text-gray-700">
                       Email
                     </label>
                     <div className="mt-1 flex rounded-md shadow-sm">
                       <input
                         type="text"
-                        name="Client-email"
+                        name="email"
                         id="client-email"
+                        onChange={(e)=>{setEmail(e.target.value)}}
                         className="focus:ring-indigo-500 dark:border-[#24292f] dark:bg-[#0d1117] focus:border-indigo-500 flex-1 block w-full rounded-md sm:text-sm text-sm dark:text-white border-gray-300 border"
                         placeholder="your@example.com"
                       />
                     </div>
                   </div>
                 </div>
+                </div>
                 <div>
-                  <label htmlFor="about" className=" block text-sm font-medium text-gray-700 dark:text-white">
+                  <label htmlFor="message" className=" block text-sm font-medium text-gray-700 dark:text-white">
                     Short Message
                   </label>
                   <div className="mt-1">
                     <textarea
-                      id="about"
-                      name="about"
+                      id="message"
+                      name="message"
+                      onChange={(e)=>{setMessage(e.target.value)}}
                       rows={3}
                       className="shadow-sm focus:ring-indigo-500 dark:bg-[#0d1117] focus:border-indigo-500 mt-1 block w-full sm:text-sm dark:text-white border dark:border-[#24292f] text-sm border-gray-300 rounded-md"
                       placeholder="Write your request here..."
@@ -77,7 +118,7 @@ const Main = () => {
               <div className="px-4 py-3 dark:bg-[#0d1117] bg-gray-50 flex items-center  sm:px-6">
                 <button
                   type="submit"
-                  formMethod=''
+                  onClick={(e)=>{handleSubmit(e)}}
                   className="flex items-center justify-center w-full py-2 px-4 pt-1 border border-transparent shadow-sm text-sm dark:border-[#24292f] rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Send Message
