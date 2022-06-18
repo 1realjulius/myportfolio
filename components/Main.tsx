@@ -34,56 +34,57 @@ const Main = () => {
         </div>
         {/* contact section */}
         <div id='Contact' className='col-span-2 text-black dark:bg-[#0d1117] dark:text-white bg-white flex flex-col border-2 dark:border-[#24292f] rounded-lg p-2'>
-        <form action="#" method="POST">
-              <div className=" dark:bg-[#0d1117]">
-                <h1 className='px-4'>Contact Me</h1>
-                <p className='px-4 text-sm  text-gray-500 dark:text-white'>Contact me with a short message on how i could be of help to your great idea. </p>
-                <div className="px-4 py-2 bg-white dark:bg-[#0d1117] space-y-6">
-                  <div className="grid grid-cols-3 gap-6">
-                    <div className="col-span-3 sm:col-span-3">
-                      <label htmlFor="clientMail" className="block text-sm dark:text-white font-medium text-gray-700">
-                        Email
-                      </label>
-                      <div className="mt-1 flex rounded-md shadow-sm">
-                        <input
-                          type="text"
-                          name="Client-email"
-                          id="client-email"
-                          className="focus:ring-indigo-500 dark:border-[#24292f] dark:bg-[#0d1117] focus:border-indigo-500 flex-1 block w-full rounded-md sm:text-sm text-sm dark:text-white border-gray-300 border"
-                          placeholder="your@example.com"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <label htmlFor="about" className=" block text-sm font-medium text-gray-700 dark:text-white">
-                      Short Message
+          <form action="#" method="POST">
+            <div className=" dark:bg-[#0d1117]">
+              <h1 className='px-4'>Contact Me</h1>
+              <p className='px-4 text-sm  text-gray-500 dark:text-white'>Contact me with a short message on how i could be of help to your great idea. </p>
+              <div className="px-4 py-2 bg-white dark:bg-[#0d1117] space-y-6">
+                <div className="grid grid-cols-3 gap-6">
+                  <div className="col-span-3 sm:col-span-3">
+                    <label htmlFor="clientMail" className="block text-sm dark:text-white font-medium text-gray-700">
+                      Email
                     </label>
-                    <div className="mt-1">
-                      <textarea
-                        id="about"
-                        name="about"
-                        rows={3}
-                        className="shadow-sm focus:ring-indigo-500 dark:bg-[#0d1117] focus:border-indigo-500 mt-1 block w-full sm:text-sm dark:text-white border dark:border-[#24292f] text-sm border-gray-300 rounded-md"
-                        placeholder="Write your request here..."
-                        defaultValue={''}
+                    <div className="mt-1 flex rounded-md shadow-sm">
+                      <input
+                        type="text"
+                        name="Client-email"
+                        id="client-email"
+                        className="focus:ring-indigo-500 dark:border-[#24292f] dark:bg-[#0d1117] focus:border-indigo-500 flex-1 block w-full rounded-md sm:text-sm text-sm dark:text-white border-gray-300 border"
+                        placeholder="your@example.com"
                       />
                     </div>
-                    <p className="mt-2 text-xs text-gray-500 dark:bg-[#0d1117] dark:text-white">
-                    • I will respond to your message as soon as possible & I will ocassionally send you offers and email to help you build a brand for your self •
-                    </p>
                   </div>
                 </div>
-                <div className="px-4 py-3 dark:bg-[#0d1117] bg-gray-50 flex items-center  sm:px-6">
-                  <button
-                    type="submit"
-                    className="flex items-center justify-center w-full py-2 px-4 pt-1 border border-transparent shadow-sm text-sm dark:border-[#24292f] rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                  >
-                    Send Message
-                  </button>
+                <div>
+                  <label htmlFor="about" className=" block text-sm font-medium text-gray-700 dark:text-white">
+                    Short Message
+                  </label>
+                  <div className="mt-1">
+                    <textarea
+                      id="about"
+                      name="about"
+                      rows={3}
+                      className="shadow-sm focus:ring-indigo-500 dark:bg-[#0d1117] focus:border-indigo-500 mt-1 block w-full sm:text-sm dark:text-white border dark:border-[#24292f] text-sm border-gray-300 rounded-md"
+                      placeholder="Write your request here..."
+                      defaultValue={''}
+                    />
+                  </div>
+                  <p className="mt-2 text-xs text-gray-500 dark:bg-[#0d1117] dark:text-white">
+                    • I will respond to your message as soon as possible & I will ocassionally send you offers and email to help you build a brand for your self •
+                  </p>
                 </div>
               </div>
-            </form>
+              <div className="px-4 py-3 dark:bg-[#0d1117] bg-gray-50 flex items-center  sm:px-6">
+                <button
+                  type="submit"
+                  formMethod=''
+                  className="flex items-center justify-center w-full py-2 px-4 pt-1 border border-transparent shadow-sm text-sm dark:border-[#24292f] rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
