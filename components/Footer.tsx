@@ -1,8 +1,10 @@
 import React from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
+import Subscribe from './Subscribe'
 
 const Footer = () => {
+  
     
     let [isOpen, setIsOpen] = useState(false)
 
@@ -43,46 +45,26 @@ const Footer = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                  <Dialog.Title
-                    as="h3"
-                    className="text-lg font-ApercuMedium leading-4 text-gray-900"
-                  >
-                    Be first to know when it is launched.
-                  </Dialog.Title>
-                  <p className=' font-ApercuMedium text-sm text-gray-500'>Add your email to get the feature list of what to expect in the Web Dev workspce.</p>
-                  <div className="col-span-3 sm:col-span-3">
-                      <div className="mt-1 flex rounded-md shadow-sm">
-                        <input
-                          type="text"
-                          name="new-client-name"
-                          id="new-client-name"
-                          className="font-ApercuMedium focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-md sm:text-xs text-xs border-gray-300"
-                          placeholder="First Name"
-                        />
-                      </div>
-                    </div>
-                  <div className="col-span-3 sm:col-span-3">
-                      <div className="mt-1 flex rounded-md shadow-sm">
-                        <input
-                          type="text"
-                          name="new-lient-email"
-                          id="new-client-email"
-                          className="font-ApercuMedium focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-md sm:text-xs text-xs border-gray-300"
-                          placeholder="your@example.com"
-                        />
-                      </div>
-                    </div>
-
-                  <div className="mt-4">
-                    <button
-                      type="submit"
-                      className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 w-full"
-                      onClick={closeModal}
-                    >
-                      Get Notified
+                
+                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white px-6 pb-6 pt-2 text-left align-middle shadow-xl transition-all">
+                <div className='relative flex text-right items-center justify-end'>
+                    <button onClick={closeModal} className="m-1">
+                      <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      </span>
                     </button>
                   </div>
+                  <Dialog.Title
+                    as="h3"
+                    className="text-lg font-ApercuMedium leading-4 text-gray-900 flex flex-col items-center justify-center"
+                  >
+                    <h1>Get My Pricing and Packages List.</h1>
+                    <p className=' font-ApercuMedium text-xs text-gray-500 text-center'>I have made  a guided Pricing and Packages for my Clients who want to make change in the world 🌍.</p>
+
+                  </Dialog.Title>
+                  <Subscribe/>
                 </Dialog.Panel>
               </Transition.Child>
             </div>

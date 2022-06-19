@@ -94,3 +94,28 @@
   //   });
   //   console.log(data);
   // };
+
+
+  <form action="https://app.us17.list-manage.com/subscribe/post?u=4912c2c3dfe3949b17cf478e7&amp;id=6afa2ecf59"
+
+
+   <form >
+      <label htmlFor="email-input" className="form__label">
+        Your Best Email
+      </label>
+
+      <input
+        type="email"
+        id="email-input"
+        name="email"
+        placeholder="your best email"
+        ref={inputRef}
+        required
+        autoCapitalize="off"
+        autoCorrect="off"
+      />
+
+      <button type="submit" value="" name="subscribe">
+        Subscribe
+      </button>
+    </form>

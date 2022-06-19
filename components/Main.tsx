@@ -15,19 +15,19 @@ const Main = () => {
           </div>
           <div className='flex flex-col items-start p-2 border-2  dark:border-[#24292f] rounded-lg'>
             <Image className='' src="/Assets/webflow-icon.svg" width={55} height={22} alt="" />
-            <h2 className='text-sm'><span>No-code Development</span> I can create a stunning and functional no-code webapp for your idea.</h2>
+            <h2 className='text-sm'><span className='font-ApercuBold'>No-code Development</span> I can create a stunning and functional no-code webapp for your idea.</h2>
           </div>
           <div className='flex flex-col items-start pt-2 p-2 border-2 dark:border-[#24292f] rounded-lg'>
             <Image className='' src="/Assets/figma-icon.svg" width={55} height={47} alt="" />
-            <h2 className='text-sm'><span>Product Prototyping</span> I can create a prototype  for your next website or software idea.</h2>
+            <h2 className='text-sm'><span className='font-ApercuBold'>Product Prototyping</span> I can create a prototype  for your next website or software idea.</h2>
           </div>
           <div className='flex flex-col items-start pt-2 p-2 border-2 dark:border-[#24292f] rounded-lg'>
             <Image className='' src="/Assets/Notioncheck-logo.svg" width={88} height={22} alt="" />
-            <h2 className='text-sm'><span>Productivity Checklists</span> I create checklists for your workflow to make it simplified and faster.</h2>
+            <h2 className='text-sm'><span className='font-ApercuBold'>Productivity Checklists</span> I create checklists for your workflow to make it simplified and faster.</h2>
           </div>
           <div className='flex flex-col items-start pt-2 p-2 border-2 dark:border-[#24292f] rounded-lg'>
             <Image className='' src="/Assets/newmemoji.svg" width={30} height={30} alt="" />
-            <h2 className='text-sm'><span>Partnership</span> I am always available for your startup partnership, to create the next change in the world.</h2>
+            <h2 className='text-sm'><span className='font-ApercuBold'>Partnership</span> I am always available for your startup partnership, to create the next change in the world.</h2>
           </div>
         </div>
         {/* projects section */}
@@ -45,11 +45,21 @@ const Main = () => {
             <h1 className='mx-2 font-ApercuBold'>Get in Touch</h1>
             <p className='px-2 text-xs'>Wanna create some change in the world contact me let make it happen.</p>
             <div className='flex flex-col items-start p-2 border-2 m-2  dark:border-[#24292f] rounded-lg'>
-              <span>Phone Number</span>
+              <p className='flex'>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 py-1 text-black dark:text-white" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
+                <span>Phone Number</span>
+              </p>
               <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233549321512</span></Link>
             </div>
             <div className='flex flex-col items-start p-2 border-2 m-2 dark:border-[#24292f] rounded-lg'>
-              <span>Email</span>
+              <p className='flex'>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 py-1 text-black dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span>Email</span>
+              </p>
               <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Want to work with you 💰"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>iamjuliusbusiness@gmail.com</span></Link>
             </div>
             <div className='flex items-center justify-center'>
