@@ -3,6 +3,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 
 const Footer = () => {
+    
     let [isOpen, setIsOpen] = useState(false)
 
     function closeModal() {
@@ -95,6 +96,8 @@ const Footer = () => {
           className="px-1 hover:underline text-blue-600 cursor-pointer"
          >
             Get notified!</span>
+            
+            
         </p>
     </div>
     </div>
