@@ -6,8 +6,7 @@ function Subscribe() {
   const [state, setState] = useState('idle')
   const [errorMsg, setErrorMsg] = useState(null)
  
-  const subscribe = async (e: React.ChangeEvent<any>) => {
-    setInputNumber(e.currentTarget.value);
+  const subscribe = async (e) => {
     e.preventDefault()
     setState('Loading')
 
