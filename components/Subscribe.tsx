@@ -5,8 +5,9 @@ function Subscribe() {
   const [email, setEmail] = useState('')
   const [state, setState] = useState('idle')
   const [errorMsg, setErrorMsg] = useState(null)
-
-  const subscribe = async (e: { preventDefault: () => void; }) => {
+ 
+  const subscribe = async (e: { currentTarget: { value: any; }; preventDefault: () => void; }) => {
+    setInputNumber(e.currentTarget.value);
     e.preventDefault()
     setState('Loading')
 
@@ -66,3 +67,7 @@ function Subscribe() {
   );
 }
 export default Subscribe
+
+function setInputNumber(value: any) {
+  throw new Error("Function not implemented.");
+}
