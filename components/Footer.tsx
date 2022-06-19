@@ -72,12 +72,12 @@ const Footer = () => {
         </Dialog>
       </Transition>
     <div className='flex bg-white dark:text-white dark:bg-[#0d1117] border-2 dark:border-[#24292f] rounded-lg py-2 mb-4 px-4 mx-4 items-center justify-center'>
-        <p className='text-xs'>I am Building a Web Dev Freelance Workspace.
+        <p className='text-xs'>I have created a Pricing and Packages List.
          <span
           onClick={openModal}
           className="px-1 hover:underline text-blue-600 cursor-pointer"
          >
-            Get notified!</span>
+            Get Yours Now!</span>
             
             
         </p>

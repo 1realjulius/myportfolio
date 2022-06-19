@@ -60,7 +60,7 @@ const Main = () => {
                 </svg>
                 <span>Email</span>
               </p>
-              <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Want to work with you 💰"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>iamjuliusbusiness@gmail.com</span></Link>
+              <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Can I work with you 💰"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>iamjuliusbusiness@gmail.com</span></Link>
             </div>
             <div className='flex items-center justify-center'>
               <span className='text-[10px] px-2 justify-center text-center'>• I will respond to your message as soon as possible to kickstart your idea •</span>

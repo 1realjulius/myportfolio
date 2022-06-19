@@ -30,7 +30,7 @@ export default async (req: { body: { email: any } }, res: { status: (arg0: numbe
     const response = await axios.post(url, data, options)
     if (response.status >= 400) {
       return res.status(400).json({
-        error: `There was an error subscribing to the newsletter. Shoot me an email at ogbonnakell@gmail and I'll add you to the list.`
+        error: `There was an error subscribing to the newsletter. Shoot me an email at iamjuliusbusiness@gmail.com and I'll add you to the list.`
       })
     }
     return res.status(201).json({ message: 'success' })
