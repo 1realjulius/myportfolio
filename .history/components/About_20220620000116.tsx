@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className='flex flex-col'>
             <h1 className='text-base'>Hey there,👋</h1>
-            <p className='text-sm'>I’m <span className='bg-gradient-to-r text-transparent bg-clip-text from-blue-800 to-purple-400'>Julius Eghan</span>  a Digital Designer and a Software Developer from Accra, Ghana 🇬🇭.I am interested in React, Product Designs, Building Startups and Music.</p>
+            <p className='text-sm'>I’m <span className='text-transparent bg-clip-text from-blue-800 to-purple-400'>Julius Eghan</span>  a Digital Designer and a Software Developer from Accra, Ghana 🇬🇭.I am interested in React, Product Designs, Building Startups and Music.</p>
           </div>
         </div>
         {/* this is the links */}

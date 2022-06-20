@@ -119,3 +119,5 @@
         Subscribe
       </button>
     </form>
+
+     //"build": "next build && next export"
