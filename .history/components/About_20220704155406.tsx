@@ -19,7 +19,7 @@ const About = () => {
           </div>
         </div>
         {/* this is the links */}
-        <div className='flex bg-white dark:bg-[#0d1117] md:mx-2  my-1 md:grid md:grid-cols-2 md:gap-4 gap-8 p-2  items-center justify-center rounded-lg border-2 dark:border-[#24292f]'>
+        <div className='flex bg-white dark:bg-[#0d1117] md:mx-2 w-full  my-1 md:grid md:grid-cols-2 md:gap-4 gap-8 p-2  items-center justify-center rounded-lg border-2 dark:border-[#24292f]'>
           <div className='flex items-center justify-center p-2 border  dark:border-[#24292f] rounded-lg hover:bg-[#ea68bc]'>
             <Link href="https://www.instagram.com/juliuseghan_/">
               <button>
