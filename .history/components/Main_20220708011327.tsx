@@ -51,7 +51,7 @@ const Main = () => {
                 </svg>
                 <span className='text-sm'>Phone Number</span>
               </p>
-              <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233_549321512</span></Link>
+              <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233549321512</span></Link>
             </div>
             <div className='flex flex-col items-start p-2 border-2 m-2 dark:border-[#24292f] rounded-lg'>
               <p className='flex items-center'>

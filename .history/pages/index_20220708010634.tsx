@@ -8,7 +8,7 @@ import Navbar from '../components/Navbar'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col pt-4 bg-[#f7f2f2] dark:bg-[#090c10]  font-cadizMedium  md:p-8">
+    <div className="flex min-h-screen flex-col pt-4 bg-[#f7f2f2] dark:bg-[#090c10] font-ApercuMedium md:p-8">
       <Head>
         <title>iamjulius</title>
         <meta name="description" content="Website and Software Developer from Ghana." />

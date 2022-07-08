@@ -51,10 +51,10 @@ const Main = () => {
                 </svg>
                 <span className='text-sm'>Phone Number</span>
               </p>
-              <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233_549321512</span></Link>
+              <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233549321512</span></Link>
             </div>
             <div className='flex flex-col items-start p-2 border-2 m-2 dark:border-[#24292f] rounded-lg'>
-              <p className='flex items-center'>
+              <p className='flex'>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 py-1 text-black dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
