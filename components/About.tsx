@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Facebook, Instagram, Linkedin, Twitter } from 'react-feather'
 
 const About = () => {
- 
+
   return (
     <div>
       <div className=' text-black dark:text-white flex flex-col px-4  md:flex-row  md:px-4 items-center justify-center'>
@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className='flex flex-col'>
             <h1 className='text-base'>Hey there,👋</h1>
-            <p className='text-sm'>I’m <span className='bg-gradient-to-r text-transparent bg-clip-text from-blue-800 to-purple-400'>Julius Eghan</span>  a Freelance Digital Designer and a Software Developer from Accra, Ghana 🇬🇭.I am interested in React, Product Designs, Building Startups and Music.</p>
+            <p className='text-sm'>I’m <span className='bg-gradient-to-r text-transparent bg-clip-text from-blue-800 to-purple-400'>Julius Eghan</span>  a Freelance Website and Software Developer from Accra, Ghana 🇬🇭.I specialize in React sJs, React Native and Product Design. I love building Startups and listerning to music.</p>
           </div>
         </div>
         {/* this is the links */}
@@ -23,29 +23,29 @@ const About = () => {
           <div className='flex items-center justify-center p-2 border  dark:border-[#24292f] rounded-lg hover:bg-[#ea68bc]'>
             <Link href="https://www.instagram.com/juliuseghan_/">
               <button>
-                <Instagram className='text-black dark:text-white' size={40}/>
+                <Instagram className='text-black dark:text-white' size={40} />
               </button>
             </Link>
           </div>
           <div className='flex items-center justify-center p-2 border dark:border-[#24292f] rounded-lg hover:bg-[#2591c4]'>
             <Link href="https://www.linkedin.com/in/julius-baffour-eghan-4bb7a820a/">
               <button>
-                <Linkedin className='text-black dark:text-white' size={40}/>
-              </button>   
+                <Linkedin className='text-black dark:text-white' size={40} />
+              </button>
             </Link>
           </div>
           <div className='flex items-center justify-center p-2 border dark:border-[#24292f] rounded-lg hover:bg-[#1c99e7]' >
             <Link href="https://twitter.com/iamjulius_e">
               <button>
-                <Twitter className='text-black dark:text-white' size={40}/>
-              </button>             
+                <Twitter className='text-black dark:text-white' size={40} />
+              </button>
             </Link>
           </div>
           <div className='flex items-center justify-center p-2 border dark:border-[#24292f] rounded-lg hover:bg-[#385491]'>
             <Link href="#">
               <button>
-                <Facebook className='text-black dark:text-white' size={40}/>
-              </button>             
+                <Facebook className='text-black dark:text-white' size={40} />
+              </button>
             </Link>
           </div>
         </div>
