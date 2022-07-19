@@ -10,17 +10,17 @@ const Main = () => {
       <div className='text-black dark:text-white flex flex-col md:grid md:grid-cols-3 md:gap-4 gap-2 px-4 md:px-4 py-2'>
 
         {/* projects section */}
-        <div id='Projects' className='opacity-50 col-span-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
+        <div id='Projects' className='opacity-50 col-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
           <div>Currently working on my projects</div>
         </div>
         {/* what i do section */}
-        <div className='row-span-3 bg-white dark:bg-[#0d1117] flex flex-col p-4 border-2 dark:border-[#24292f] rounded-lg gap-2'>
+        <div className='row-span-2 bg-white dark:bg-[#0d1117] flex flex-col p-4 border-2 dark:border-[#24292f] rounded-lg gap-2'>
           <div className='flex'>
             <h1 className='ml-2'>My Expertise!</h1>
           </div>
-          <div className='border-2 divide-y-2  dark:border-[#24292f] dark:divide-[#24292f] rounded-lg'>
+          <div className='border-2 divide-y-2  dark:border-[#24292f] rounded-lg'>
             <div className='flex flex-col items-start pt-2 p-2 '>
-            <Image className='' src="/Assets/nextjs-logo.png" width={22} height={22} alt="" />
+            <Image className='' src="/Assets/nextjs-logo.png" width={24} height={22} alt="" />
               <h2 className='text-sm'><span className='font-cadizMedium'>Next Js Websites.</span> I write clean and functional codes for websites like E-comerce, Portfolio sites, Agency Sites and Saas Sites.</h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2 '>
@@ -59,7 +59,7 @@ const Main = () => {
                   </svg>
                   <span className='text-sm'>Phone Number</span>
                 </p>
-                <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233 549321512</span></Link>
+                <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233_549321512</span></Link>
               </div>
               <div className='flex justify-between p-2'>
                 <p className='flex items-center'>

@@ -20,7 +20,7 @@ const Main = () => {
           </div>
           <div className='border-2 divide-y-2  dark:border-[#24292f] dark:divide-[#24292f] rounded-lg'>
             <div className='flex flex-col items-start pt-2 p-2 '>
-            <Image className='' src="/Assets/nextjs-logo.png" width={22} height={22} alt="" />
+            <Image className='' src="/Assets/nextjs-logo.png" width={24} height={22} alt="" />
               <h2 className='text-sm'><span className='font-cadizMedium'>Next Js Websites.</span> I write clean and functional codes for websites like E-comerce, Portfolio sites, Agency Sites and Saas Sites.</h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2 '>
@@ -59,7 +59,7 @@ const Main = () => {
                   </svg>
                   <span className='text-sm'>Phone Number</span>
                 </p>
-                <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233 549321512</span></Link>
+                <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233_549_321_512</span></Link>
               </div>
               <div className='flex justify-between p-2'>
                 <p className='flex items-center'>

@@ -20,7 +20,7 @@ const Main = () => {
           </div>
           <div className='border-2 divide-y-2  dark:border-[#24292f] dark:divide-[#24292f] rounded-lg'>
             <div className='flex flex-col items-start pt-2 p-2 '>
-            <Image className='' src="/Assets/nextjs-logo.png" width={22} height={22} alt="" />
+            <Image className='' src="/Assets/nextjs-logo.png" width={24} height={22} alt="" />
               <h2 className='text-sm'><span className='font-cadizMedium'>Next Js Websites.</span> I write clean and functional codes for websites like E-comerce, Portfolio sites, Agency Sites and Saas Sites.</h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2 '>
