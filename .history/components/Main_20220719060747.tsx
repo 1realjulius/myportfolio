@@ -18,14 +18,6 @@ const Main = () => {
           <div className='flex'>
             <h1>My Expertise!</h1>
           </div>
-          <div className='flex flex-col items-start pt-2 p-2 border-2 dark:border-[#24292f] rounded-lg'>
-          <Image className='' src="/Assets/nextjs-logo.png" width={24} height={22} alt="" />
-            <h2 className='text-sm'><span className='font-cadizMedium'>Next Js Websites.</span> I write clean and functional codes for websites like E-comerce, Portfolio sites, Agency Sites and Saas Sites.</h2>
-          </div>
-          <div className='flex flex-col items-start pt-2 p-2 border-2 dark:border-[#24292f] rounded-lg'>
-          <Image className='' src="/Assets/react-native.png" width={24} height={22} alt="" />
-            <h2 className='text-sm'><span className='font-cadizMedium'>React Native Apps.</span> I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal ios, android, windows app, mac app, watch Os app and web apps.</h2>
-          </div>
           <div className='flex flex-col items-start p-2 border-2  dark:border-[#24292f] rounded-lg'>
             <Image className='' src="/Assets/webflow-icon.svg" width={55} height={22} alt="" />
             <h2 className='text-sm'><span className='font-cadizMedium'>No-code Development.</span> I can create a stunning and functional no-code webapp for your idea.</h2>
@@ -38,7 +30,6 @@ const Main = () => {
             <Image className='' src="/Assets/newmemoji.svg" width={30} height={30} alt="" />
             <h2 className='text-sm'><span className='font-cadizMedium'>Partnership.</span> I am always available for your startup partnership, to create the next change in the world.</h2>
           </div>
-        </div>
         {/* about me */}
         <div id='Projects' className='opacity-50 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-6 items-center justify-center cursor-not-allowed'>
           <h1>My Journey</h1>

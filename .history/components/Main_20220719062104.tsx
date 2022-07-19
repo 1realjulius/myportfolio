@@ -19,12 +19,12 @@ const Main = () => {
             <h1>My Expertise!</h1>
           </div>
           <div className='flex flex-col items-start pt-2 p-2 border-2 dark:border-[#24292f] rounded-lg'>
-          <Image className='' src="/Assets/nextjs-logo.png" width={24} height={22} alt="" />
+          <Image className='' src="/Assets/nextjs-logo.svg " width={88} height={22} alt="" />
             <h2 className='text-sm'><span className='font-cadizMedium'>Next Js Websites.</span> I write clean and functional codes for websites like E-comerce, Portfolio sites, Agency Sites and Saas Sites.</h2>
           </div>
           <div className='flex flex-col items-start pt-2 p-2 border-2 dark:border-[#24292f] rounded-lg'>
           <Image className='' src="/Assets/react-native.png" width={24} height={22} alt="" />
-            <h2 className='text-sm'><span className='font-cadizMedium'>React Native Apps.</span> I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal ios, android, windows app, mac app, watch Os app and web apps.</h2>
+            <h2 className='text-sm'><span className='font-cadizMedium'>React Native Apps.</span> I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal ios, android, windows app, mac app, watch os app and web apps.</h2>
           </div>
           <div className='flex flex-col items-start p-2 border-2  dark:border-[#24292f] rounded-lg'>
             <Image className='' src="/Assets/webflow-icon.svg" width={55} height={22} alt="" />

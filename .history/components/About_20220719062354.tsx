@@ -48,7 +48,7 @@ const About = () => {
             <p className='text-sm'>I’m <span className='bg-gradient-to-r text-transparent bg-clip-text from-blue-800 to-purple-400'>
               Julius Eghan</span>  a Freelance Website and Software Developer from Accra, Ghana 🇬🇭. I make professional and functional websites and mobile apps with React Js and React Native. I love making memorable change to the world all while listening to <Link href="https://open.spotify.com/user/l9obknmym5mbo8h0mp86ilvnv?si=5c8cb40d57be471d"><span className='text-green-400'>music.</span></Link>
             </p>
-            <div className='flex space-x-4 pt-2'>
+            <div className='flex space-x-4'>
             <div>
               <button className='text-gray-500 flex space-x-1 items-center'  onClick={() =>  navigator.clipboard.writeText('https://www.iamjulius.com/')} >
                 <p className='flex text-sm items-center space-x-2'><span>Copy My Portfolio Link</span></p>

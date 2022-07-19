@@ -24,7 +24,7 @@ const Main = () => {
           </div>
           <div className='flex flex-col items-start pt-2 p-2 border-2 dark:border-[#24292f] rounded-lg'>
           <Image className='' src="/Assets/react-native.png" width={24} height={22} alt="" />
-            <h2 className='text-sm'><span className='font-cadizMedium'>React Native Apps.</span> I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal ios, android, windows app, mac app, watch Os app and web apps.</h2>
+            <h2 className='text-sm'><span className='font-cadizMedium'>React Native Apps.</span> I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal ios, android, windows app, mac app, watch os app and web apps.</h2>
           </div>
           <div className='flex flex-col items-start p-2 border-2  dark:border-[#24292f] rounded-lg'>
             <Image className='' src="/Assets/webflow-icon.svg" width={55} height={22} alt="" />
