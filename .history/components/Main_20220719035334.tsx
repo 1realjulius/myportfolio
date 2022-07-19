@@ -8,11 +8,6 @@ const Main = () => {
   return (
     <div>
       <div className='text-black dark:text-white flex flex-col md:grid md:grid-cols-3 md:gap-4 gap-2 px-4 md:px-4 py-2'>
-
-        {/* projects section */}
-        <div id='Projects' className='opacity-50 col-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
-          <div>Currently working on my projects</div>
-        </div>
         {/* what i do section */}
         <div className='row-span-2 bg-white dark:bg-[#0d1117] flex flex-col p-4 border-2 dark:border-[#24292f] rounded-lg gap-2'>
           <div className='flex'>
@@ -34,6 +29,10 @@ const Main = () => {
             <Image className='' src="/Assets/newmemoji.svg" width={30} height={30} alt="" />
             <h2 className='text-sm'><span className='font-cadizMedium'>Partnership</span> I am always available for your startup partnership, to create the next change in the world.</h2>
           </div>
+        </div>
+        {/* projects section */}
+        <div id='Projects' className='opacity-50 col-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
+          <div>Currently working on my projects</div>
         </div>
         {/* about me */}
         <div id='Projects' className='opacity-50 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-6 items-center justify-center cursor-not-allowed'>
