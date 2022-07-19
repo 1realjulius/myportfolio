@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Copy, Facebook, FileText, Heart, Instagram, Linkedin, Music, Twitter } from 'react-feather'
 
 const About = () => {
+
   return (
     <div>
       <div className=' text-black dark:text-white flex flex-col px-4  md:flex-row  md:px-4 items-center justify-center'>
@@ -11,7 +12,7 @@ const About = () => {
           <div className='flex items-center justify-between'>
             <Image src="/Assets/newmemoji.svg" width={72} height={72} alt="" />
             {/* put the dark mode toggle here */}
-            <div className='flex flex-row items-center space-x-6'>
+            <div className='flex space-x-62'>
               <div>
               <Link href="https://twitter.com/iamjulius_e">
                 <button>
@@ -38,7 +39,7 @@ const About = () => {
           <div className='flex flex-col'>
             <h1 className='text-base'>Hey there,👋</h1>
             <p className='text-sm'>I’m <span className='bg-gradient-to-r text-transparent bg-clip-text from-blue-800 to-purple-400'>
-              Julius Eghan</span>  a Freelance Website and Software Developer from Accra, Ghana 🇬🇭. I make professional and functional websites and mobile apps with React Js and React Native. I love making memorable change to the world all while listening to <Link href="https://open.spotify.com/user/l9obknmym5mbo8h0mp86ilvnv?si=5c8cb40d57be471d"><span className='text-green-400 cursor-pointer'>music.</span></Link>
+              Julius Eghan</span>  a Freelance Website and Software Developer from Accra, Ghana 🇬🇭. I make professional and functional websites and mobile apps with React Js and React Native. I love making memorable change to the world all while listening to <Link href="https://open.spotify.com/user/l9obknmym5mbo8h0mp86ilvnv?si=5c8cb40d57be471d"><span className='text-green-400'>music.</span></Link>
             </p>
             <div className='flex space-x-5 pt-2'>
             <div>
