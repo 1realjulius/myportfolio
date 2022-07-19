@@ -12,7 +12,7 @@ const About = () => {
           <div className='flex items-center justify-between'>
             <Image src="/Assets/newmemoji.svg" width={72} height={72} alt="" />
             {/* put the dark mode toggle here */}
-            <div className='flex space-x-6'>
+            <div className='flex space-x-4'>
               <div>
               <Link href="https://twitter.com/iamjulius_e">
                 <button>
