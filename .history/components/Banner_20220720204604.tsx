@@ -50,7 +50,7 @@ const Banner = () => {
                 
                 <Dialog.Panel className="relative w-full max-w-md transform overflow-hidden rounded-lg bg-white border-2 dark:border-[#24292f] dark:bg-[#090c10] pt-4 text-left align-middle shadow-xl transition-all">
                    <div className='relative flex text-right items-center justify-end'>
-                   <span className='absolute left-0 text-[10px] font-ApercuBold mx-2 mt-2 bg-blue-300 text-blue-800 py-1 px-2 rounded'>Front-End Web Developer</span>
+                   <span className='absolute left-0 text-xxs bg-blue-400 text-white py-1 px-2 rounded-lg'>Front-End Web Developer</span>
                       <span onClick={closeModal} className="absolute cursor-pointer mt-3 mr-3 bg-gray-100 dark:bg-[#24292f] rounded-full">
                         <X className='text-black dark:text-white  m-1' size={20} />
                       </span>
