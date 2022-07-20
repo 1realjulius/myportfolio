@@ -28,9 +28,9 @@ const HireMe = () => {
                     </Link>
                 </div>
                 <div className=' p-2'>
-                    <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Hey, I want you to Join Our Team 🎉">
+                    <Link href="https://www.linkedin.com/in/julius-baffour-eghan-4bb7a820a/">
                         <div className='flex justify-between items-center cursor-pointer'>
-                            <p className='text-base dark:text-white'>Send Me An Email</p>
+                            <p className='text-base dark:text-white'>Email Me A link Of The Application Site</p>
                             <Mail className='text-black  dark:text-white' size={18} />
                         </div>
                     </Link>

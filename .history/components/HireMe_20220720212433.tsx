@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FileText, Linkedin, Mail} from 'react-feather'
+import { FileText, Linkedin} from 'react-feather'
 
 const HireMe = () => {
   return (
@@ -11,12 +11,10 @@ const HireMe = () => {
                 <p className='text-sm font-cadizMedium text-gray-400'>I am familiar with systems like Git, Expo, Web 3 development, Webflow and Figma. I am dedicated to driving <span className='text-gray-400 dark:text-white'> innovation</span> with the ability to follow industry and technological trends and facilitating the early adoption of <span className='text-gray-400 dark:text-white'> innovations.</span></p>
             </div>
             <div className='border-2 dark:border-[#24292f] divide-y-2 dark:divide-[#24292f] rounded-lg'>
-                <div className=' p-2'>
+                <div className='flex justify-between items-center p-2'>
+                    <p className='text-base dark:text-white'>Download My Resume</p>
                     <Link href="https://iamjulius.notion.site/Julius-Eghan-Resume-Cover-Letter-7e2405ee191a4cc9aae0af15fd806807">
-                        <div className='flex justify-between items-center cursor-pointer'>
-                            <p className='text-base dark:text-white'>Download My Resume</p>
-                            <FileText className='text-black cursor-pointer dark:text-white' size={18} />
-                        </div>
+                        <FileText className='text-black cursor-pointer dark:text-white' size={18} />
                     </Link>
                 </div>
                 <div className=' p-2'>
@@ -24,14 +22,6 @@ const HireMe = () => {
                         <div className='flex justify-between items-center cursor-pointer'>
                             <p className='text-base dark:text-white'>Check Out My LinkedIn Profile</p>
                             <Linkedin className='text-black  dark:text-white' size={18} />
-                        </div>
-                    </Link>
-                </div>
-                <div className=' p-2'>
-                    <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Hey, I want you to Join Our Team 🎉">
-                        <div className='flex justify-between items-center cursor-pointer'>
-                            <p className='text-base dark:text-white'>Send Me An Email</p>
-                            <Mail className='text-black  dark:text-white' size={18} />
                         </div>
                     </Link>
                 </div>

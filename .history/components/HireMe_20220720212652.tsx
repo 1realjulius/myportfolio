@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FileText, Linkedin, Mail} from 'react-feather'
+import { FileText, Linkedin} from 'react-feather'
 
 const HireMe = () => {
   return (
@@ -28,10 +28,10 @@ const HireMe = () => {
                     </Link>
                 </div>
                 <div className=' p-2'>
-                    <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Hey, I want you to Join Our Team 🎉">
+                    <Link href="https://www.linkedin.com/in/julius-baffour-eghan-4bb7a820a/">
                         <div className='flex justify-between items-center cursor-pointer'>
-                            <p className='text-base dark:text-white'>Send Me An Email</p>
-                            <Mail className='text-black  dark:text-white' size={18} />
+                            <p className='text-base dark:text-white'>Check Out My LinkedIn Profile</p>
+                            <Linkedin className='text-black  dark:text-white' size={18} />
                         </div>
                     </Link>
                 </div>
