@@ -36,10 +36,10 @@ const HireMe = () => {
                     </Link>
                 </div>
                 <div className=' p-2'>
-                    <Link href="tel:+233549321512">
+                    <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Hey, I want you to Join Our Team 🎉">
                         <div className='flex justify-between items-center cursor-pointer'>
-                            <p className='text-base text-green-400'>Call Me Now</p>
-                            <Phone className='text-green-400' size={18} />
+                            <p className='text-base dark:text-white'>Call Me Now</p>
+                            <Phone className='text-black  dark:text-white' size={18} />
                         </div>
                     </Link>
                 </div>
