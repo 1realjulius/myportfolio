@@ -64,7 +64,7 @@ const Banner = () => {
         </Dialog>
       </Transition>
       </div>
-        <p className='text-sm dark:text-white text-black'>I am Seeking a Job as Front-End Web Developer. <span onClick={openModal} className='text-green-500 hover:underline cursor-pointer'>Hire Me</span></p>
+        <p className='text-sm dark:text-white text-black'>Currently Seeking a Job as Front-End Web Developer. <span onClick={openModal} className='text-green-500 hover:underline cursor-pointer'>Hire Me</span></p>
     </div>
   )
 }
