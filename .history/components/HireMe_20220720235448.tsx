@@ -20,7 +20,7 @@ const HireMe = () => {
                     </Link>
                 </div>
                 <div className=' p-2'>
-                <Link href="/Assets/files/Julius_Eghan-Resume.pdf" download="Julius_Eghan-Resume.pdf" target="_blank">
+                    <Link href="https://iamjulius.notion.site/Julius-Eghan-Resume-Cover-Letter-7e2405ee191a4cc9aae0af15fd806807">
                         <div className='flex justify-between items-center cursor-pointer'>
                             <p className='text-base dark:text-white'>Download My Resume</p>
                             <FileText className='text-black cursor-pointer dark:text-white' size={18} />

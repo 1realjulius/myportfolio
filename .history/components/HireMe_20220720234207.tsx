@@ -12,17 +12,17 @@ const HireMe = () => {
             </div>
             <div className='border-2 dark:border-[#24292f] divide-y-2 dark:divide-[#24292f] rounded-lg'>
                 <div className=' p-2'>
-                    <Link href="/Assets/files/Julius_Eghan-Cover-Letter.pdf" download="Julius_Eghan-Cover-Letter.pdf" target="_blank">
+                    <Link href="https://iamjulius.notion.site/Julius-Eghan-Resume-Cover-Letter-7e2405ee191a4cc9aae0af15fd806807">
                         <div className='flex justify-between items-center cursor-pointer'>
-                            <p className='text-base dark:text-white'>Get My Cover Letter</p>
+                            <p className='text-base dark:text-white'>Download My Resume</p>
                             <File className='text-black cursor-pointer dark:text-white' size={18} />
                         </div>
                     </Link>
                 </div>
                 <div className=' p-2'>
-                <Link href="/Assets/files/Julius_Eghan-Resume.pdf" download="Julius_Eghan-Resume.pdf" target="_blank">
+                    <Link href="https://iamjulius.notion.site/Julius-Eghan-Resume-Cover-Letter-7e2405ee191a4cc9aae0af15fd806807">
                         <div className='flex justify-between items-center cursor-pointer'>
-                            <p className='text-base dark:text-white'>Download My Resume</p>
+                            <p className='text-base dark:text-white'>Download My Cover Leter</p>
                             <FileText className='text-black cursor-pointer dark:text-white' size={18} />
                         </div>
                     </Link>
