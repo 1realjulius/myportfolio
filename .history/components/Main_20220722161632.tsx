@@ -72,7 +72,7 @@ const Main = () => {
               <h2 className='text-sm'><span className='font-cadizMedium'>Product Prototyping.</span> I can create a prototype  for your next website or software idea.</h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2'>
-              <Image className=' animate-spin' src="/Assets/newmemoji.svg" width={30} height={30} alt=""  />
+              <Image className='' src="/Assets/newmemoji.svg" width={30} height={30} alt=""  />
               <h2 className='text-sm'><span className='font-cadizMedium'>Partnership.</span> I am always available for your startup partnership, to create the next change in the world.</h2>
             </div>
           </div>

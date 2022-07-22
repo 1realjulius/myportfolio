@@ -72,7 +72,7 @@ const Main = () => {
               <h2 className='text-sm'><span className='font-cadizMedium'>Product Prototyping.</span> I can create a prototype  for your next website or software idea.</h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2'>
-              <Image className=' animate-spin' src="/Assets/newmemoji.svg" width={30} height={30} alt=""  />
+              <Image className='' src="/Assets/newmemoji.svg" width={30} height={30} alt="" />
               <h2 className='text-sm'><span className='font-cadizMedium'>Partnership.</span> I am always available for your startup partnership, to create the next change in the world.</h2>
             </div>
           </div>
@@ -89,15 +89,17 @@ const Main = () => {
             <p className='px-2 text-xs'>Wanna create some change in the world 🌍 contact me let make it happen.</p>
             <div className='border-2 m-2 divide-y-2 dark:divide-[#24292f] dark:border-[#24292f] rounded-lg'>
               <div className='flex justify-between p-2'>
-                <p className='flex items-center space-x-2'>
-                  <PhoneCall className='text-black dark:text-white' size={16} />
+                <p className='flex items-center'>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 py-1 text-black dark:text-white" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
                   <span className='text-sm'>Phone Number</span>
                 </p>
                 <Link href="tel:+233549321512"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>+233 549321512</span></Link>
               </div>
               <div className='flex justify-between p-2'>
-                <p className='flex items-center space-x-2'>
-                  <Mail className='text-black dark:text-white' size={18} />
+                <p className='flex items-center'>
+                  <Mail className='text-green-600' size={18} />
                   <span className='text-sm'>Email</span>
                 </p>
                 <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Can I work with you 💰"><span className='text-sm cursor-pointer text-blue-400 hover:underline'>iamjuliusbusiness@gmail.com</span></Link>
