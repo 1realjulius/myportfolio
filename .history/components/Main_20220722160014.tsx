@@ -32,9 +32,9 @@ const Main = () => {
               <p className='text-xs text-gray-400'>Simplify your workflows with my Functional, comprehensive and beginner friendly notion checklists.</p>
             </div>
           </div>
-          <div className='flex space-x-2 items-center justify-center bg-gray-200 py-1 rounded-lg'>
+          <div className='flex space-x-2 items-center divide-x-2 dark:divide-[#24292f]'>
             <Link href="/">
-               <div className='flex py-1 px-3 items-center  cursor-pointer space-x-2 animate-pulse hover:underline'>
+               <div className='flex py-1 px-3 items-center   cursor-pointer space-x-2 animate-pulse hover:underline'>
                     <p className='text-black dark:text-white  text-sm leading-none'>Project Page Coming Soon </p>
                     <Clock className='text-black dark:text-white' size={18} />
                </div>
