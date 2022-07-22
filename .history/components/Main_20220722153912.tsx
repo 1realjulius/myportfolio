@@ -112,7 +112,7 @@ const Main = () => {
               <span className='text-[10px] text-gray-400 px-2 justify-center text-center'>• I will respond to your message as soon as possible to kickstart your idea •</span>
             </div>
             <p className='px-2 text-sm'>More.</p>
-            <div className='border-2 border-green-200 m-2 divide-y-2 bg-green-200 dark:bg-inherit dark:divide-[#24292f] dark:border-[#24292f] rounded-lg'>
+            <div className='border-2 border-green-600 m-2 divide-y-2 bg-green-300 dark:bg-inherit dark:divide-[#24292f] dark:border-[#24292f] rounded-lg'>
               <Link href="https://open.spotify.com/user/l9obknmym5mbo8h0mp86ilvnv?si=5c8cb40d57be471d">
                 <div id='Spotify' className='flex justify-between cursor-pointer  p-2'>
                   <p className='flex items-center space-x-2'>

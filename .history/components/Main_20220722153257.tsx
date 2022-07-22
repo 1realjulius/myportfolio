@@ -35,7 +35,7 @@ const Main = () => {
           <div className='flex space-x-2 items-center divide-x-2 dark:divide-[#24292f]'>
             <Link href="/">
                <div className='flex py-1 px-3 items-center  cursor-pointer space-x-2 animate-pulse hover:underline'>
-                    <p className='text-black dark:text-white  text-sm leading-none'>Project Page Coming Soon </p>
+                    <p className='text-black dark:text-white  text-sm leading-none'>Coming Soon </p>
                     <Clock className='text-black dark:text-white' size={18} />
                </div>
             </Link>
@@ -112,12 +112,12 @@ const Main = () => {
               <span className='text-[10px] text-gray-400 px-2 justify-center text-center'>• I will respond to your message as soon as possible to kickstart your idea •</span>
             </div>
             <p className='px-2 text-sm'>More.</p>
-            <div className='border-2 border-green-200 m-2 divide-y-2 bg-green-200 dark:bg-inherit dark:divide-[#24292f] dark:border-[#24292f] rounded-lg'>
+            <div className='border-2 border-green-600 m-2 divide-y-2 bg-green-300 dark:bg-inherit dark:divide-[#24292f] dark:border-[#24292f] rounded-lg'>
               <Link href="https://open.spotify.com/user/l9obknmym5mbo8h0mp86ilvnv?si=5c8cb40d57be471d">
                 <div id='Spotify' className='flex justify-between cursor-pointer  p-2'>
                   <p className='flex items-center space-x-2'>
                     <Image className='' src="/Assets/spotify-1.svg" width={60} height={22} alt="" />
-                    <span className='text-sm text-green-600'>View My Profile</span>
+                    <span className='text-sm dark:text-green-600'>View My Profile</span>
                   </p>
                   <Speaker className='text-green-600' size={18} />
                 </div>
