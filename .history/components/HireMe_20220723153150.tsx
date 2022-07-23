@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { Download, File, FileText, Linkedin, Mail, Phone} from 'react-feather'
+import { File, FileText, Linkedin, Mail, Phone} from 'react-feather'
 
 const HireMe = () => {
   return (
@@ -23,7 +23,7 @@ const HireMe = () => {
                 <Link href="/Assets/files/Julius_Eghan-Resume.pdf" download="Julius_Eghan-Resume.pdf" target="_blank">
                         <div className='flex justify-between items-center cursor-pointer'>
                             <p className='text-base dark:text-white'>Download My Resume</p>
-                            <Download className='text-black cursor-pointer dark:text-white animate-bounce' size={18} />
+                            <FileText className='text-black cursor-pointer dark:text-white' size={18} />
                         </div>
                     </Link>
                 </div>
@@ -47,7 +47,7 @@ const HireMe = () => {
                     <Link href="tel:+233549321512">
                         <div className='flex justify-between items-center cursor-pointer'>
                             <p className='text-base text-green-400'>Call Me Now...</p>
-                            <Phone className='text-green-400 animate-wobble' size={18} />
+                            <Phone className='text-green-400' size={18} />
                         </div>
                     </Link>
                 </div>

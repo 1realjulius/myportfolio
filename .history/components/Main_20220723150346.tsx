@@ -123,7 +123,7 @@ const Main = () => {
                     <Image className='' src="/Assets/spotify-1.svg" width={60} height={22} alt="" />
                     <span className='text-sm text-green-600'>View My Profile</span>
                   </p>
-                  <Speaker className='text-green-600 animate-wobble' size={18} />
+                  <Speaker className='text-green-600' size={18} />
                 </div>
               </Link>
               {/* Put other stuff here */}

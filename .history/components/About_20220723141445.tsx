@@ -28,7 +28,7 @@ const About = () => {
               </div>
               <div>
               <Link href="https://www.linkedin.com/in/julius-baffour-eghan-4bb7a820a/">
-                <button className=' animate-wobble'>
+                <button className=''>
                   <Linkedin className='text-black dark:text-white hover:text-[#0072b1]' size={25} />
                 </button>
               </Link>
@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </div>
           <div className='flex flex-col'>
-            <h1 className='text-base'>Hey there, <span className='animate-wiggle'>👋</span></h1>
+            <h1 className='text-base'>Hey there, <span className=' animate-wiggle'>👋</span></h1>
             <p className='text-sm'>I’m <span className='bg-gradient-to-r text-transparent bg-clip-text from-blue-800 to-purple-400'>
               Julius Eghan</span>  a Freelance Website and Software Developer from Accra, Ghana 🇬🇭. I make professional websites and mobile apps with React Js and React Native. I love making memorable change to the world 🌍 all while listening to <Link href="#Spotify"><span className='text-green-400 hover:underline cursor-pointer animate-pulse'>music.</span></Link>
             </p>

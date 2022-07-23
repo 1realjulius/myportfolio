@@ -29,6 +29,7 @@ module.exports = {
           '75%' : {
             transform: 'translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)',
           },
+          },
           to : {
             transform: 'translate3d(0, 0, 0)',
           },

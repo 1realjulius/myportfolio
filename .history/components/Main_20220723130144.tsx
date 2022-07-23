@@ -21,14 +21,14 @@ const Main = () => {
             <div className='flex  items-center'>
               <div className='flex flex-row bg-blue-200 items-center py-1 px-2 rounded space-x-2'>
                 <Image src="/Assets/notion-logo-1.svg" width="12" height='12' alt="" className='' />
-                <h1 className='text-[12px] text-black'>Professional</h1>
+                <h1 className='text-[12px] text-black'>Free and Premium</h1>
               </div>
             </div>
             <Link href="https://notioncheck.gumroad.com/">
               <div className='flex  items-center'>
               <div className='flex flex-row bg-yellow-200 items-center py-1 px-2 rounded space-x-2'>
-                <h1 className='text-[12px] text-yellow-800'>website</h1>
-                <ExternalLink className='text-yellow-800 animate-wobble' size={14} />
+                <h1 className='text-[12px] text-yellow-800'>Check it out</h1>
+                <ExternalLink className='text-yellow-800' size={14} />
               </div>
               </div>
             </Link>
@@ -123,7 +123,7 @@ const Main = () => {
                     <Image className='' src="/Assets/spotify-1.svg" width={60} height={22} alt="" />
                     <span className='text-sm text-green-600'>View My Profile</span>
                   </p>
-                  <Speaker className='text-green-600 animate-wobble' size={18} />
+                  <Speaker className='text-green-600' size={18} />
                 </div>
               </Link>
               {/* Put other stuff here */}

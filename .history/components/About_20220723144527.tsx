@@ -28,7 +28,7 @@ const About = () => {
               </div>
               <div>
               <Link href="https://www.linkedin.com/in/julius-baffour-eghan-4bb7a820a/">
-                <button className=' animate-wobble'>
+                <button className=''>
                   <Linkedin className='text-black dark:text-white hover:text-[#0072b1]' size={25} />
                 </button>
               </Link>
