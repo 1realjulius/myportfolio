@@ -51,7 +51,7 @@ const Main = () => {
         </div>
         {/* project 2 section */}
         <div id='Projects' className='opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
-          <div>Project 2 Coming Soon</div>
+          <div>Currently working on my project 2</div>
         </div>
         {/* project 3 section */}
         <div id='Projects' className='opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>

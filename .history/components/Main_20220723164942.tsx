@@ -51,15 +51,15 @@ const Main = () => {
         </div>
         {/* project 2 section */}
         <div id='Projects' className='opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
-          <div>Project 2 Coming Soon</div>
+          <div>Currently working on my project 2</div>
         </div>
         {/* project 3 section */}
         <div id='Projects' className='opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
-          <div>Currently working on my project 3</div>
+          <div>Currently working on my project3</div>
         </div>
         {/* project 4 section */}
         <div id='Projects' className='opacity-50 col-span-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
-          <div>Currently working on my project 4</div>
+          <div>Currently working on my project4</div>
         </div>
         {/* what i do section */}
         <div className='row-span-3 bg-white dark:bg-[#0d1117] flex flex-col p-4 border-2 dark:border-[#24292f] rounded-lg gap-2'>
@@ -71,8 +71,8 @@ const Main = () => {
             <Image className='' src="/Assets/nextjs-logo.png" width={22} height={22} alt="" />
               <h2 className='text-sm'><span className='font-cadizMedium'>Next Js Websites.</span> I write clean and functional codes for websites like <span className='text-blue-400'> E-comerce</span>, <span className='text-blue-400'>Portfolio sites</span>,<span className='text-blue-400'> Agency Sites</span> and <span className='text-blue-400'>Saas Sites.</span></h2>
             </div>
-            <div className='flex flex-col items-start pt-2  p-2 '>
-            <Image className=' animate-spin' src="/Assets/react-native.png" width={24} height={22} alt="" />
+            <div className='flex flex-col items-start pt-2 p-2 '>
+            <Image className='' src="/Assets/react-native.png" width={24} height={22} alt="" />
               <h2 className='text-sm'><span className='font-cadizMedium'>React Native Apps.</span> I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal <span className='text-blue-400'>ios</span>, <span className='text-blue-400'>android</span>, <span className='text-blue-400'>windows app</span>, <span className='text-blue-400'>mac app</span>, and <span className='text-blue-400'>web apps.</span></h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2 '>
@@ -84,7 +84,7 @@ const Main = () => {
               <h2 className='text-sm'><span className='font-cadizMedium'>Product Prototyping.</span> I can create a prototype  for your next website or software idea.</h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2'>
-              <Image className=' animate-wiggle' src="/Assets/newmemoji.svg" width={30} height={30} alt=""  />
+              <Image className=' animate-spin' src="/Assets/newmemoji.svg" width={30} height={30} alt=""  />
               <h2 className='text-sm'><span className='font-cadizMedium'>Partnership.</span> I am always available for your startup partnership, to create the next change in the world.</h2>
             </div>
           </div>

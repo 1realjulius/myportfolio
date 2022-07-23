@@ -21,7 +21,7 @@ const About = () => {
               </div>
               <div>
                 <Link href="https://www.instagram.com/juliuseghan_/">
-                  <button className=' animate-wiggle'>
+                  <button className=''>
                   <Instagram className='text-black dark:text-white hover:text-[#fb3958]' size={25} />
                   </button>
                 </Link>

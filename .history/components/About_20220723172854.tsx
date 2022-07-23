@@ -51,7 +51,7 @@ const About = () => {
               <Link href="https://iamjulius.notion.site/Julius-Eghan-Resume-Cover-Letter-7e2405ee191a4cc9aae0af15fd806807">
                 <button  className='text-gray-500 flex space-x-1 items-center'>
                   <span className='text-sm hover:underline'>Get my Resume</span>
-                <FileText className='text-gray-500 animate-wiggle' size={14} />
+                <FileText className='text-gray-500' size={14} />
                 </button>
               </Link>
             </div>

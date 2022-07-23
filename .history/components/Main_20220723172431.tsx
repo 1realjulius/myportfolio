@@ -51,7 +51,7 @@ const Main = () => {
         </div>
         {/* project 2 section */}
         <div id='Projects' className='opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
-          <div>Project 2 Coming Soon</div>
+          <div>Currently working on my project 2</div>
         </div>
         {/* project 3 section */}
         <div id='Projects' className='opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed'>
@@ -71,7 +71,7 @@ const Main = () => {
             <Image className='' src="/Assets/nextjs-logo.png" width={22} height={22} alt="" />
               <h2 className='text-sm'><span className='font-cadizMedium'>Next Js Websites.</span> I write clean and functional codes for websites like <span className='text-blue-400'> E-comerce</span>, <span className='text-blue-400'>Portfolio sites</span>,<span className='text-blue-400'> Agency Sites</span> and <span className='text-blue-400'>Saas Sites.</span></h2>
             </div>
-            <div className='flex flex-col items-start pt-2  p-2 '>
+            <div className='flex flex-col items-start pt-2  py-2 p-2 '>
             <Image className=' animate-spin' src="/Assets/react-native.png" width={24} height={22} alt="" />
               <h2 className='text-sm'><span className='font-cadizMedium'>React Native Apps.</span> I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal <span className='text-blue-400'>ios</span>, <span className='text-blue-400'>android</span>, <span className='text-blue-400'>windows app</span>, <span className='text-blue-400'>mac app</span>, and <span className='text-blue-400'>web apps.</span></h2>
             </div>

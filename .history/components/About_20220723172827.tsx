@@ -9,7 +9,7 @@ const About = () => {
       <div className=' text-black dark:text-white flex flex-col px-4  md:flex-row  md:px-4 items-center justify-center'>
         <div className='bg-white dark:bg-[#0d1117] col-span-2 my-1 p-4 rounded-lg border-2 dark:border-[#24292f]'>
           <div className='flex items-center justify-between'>
-            <Image src="/Assets/newmemoji.svg" width={72} height={72} alt="" className='' />
+            <Image src="/Assets/newmemoji.svg" width={72} height={72} alt="" className='border-2' />
             {/* put the dark mode toggle here */}
             <div className='flex flex-row items-center space-x-6'>
               <div>
@@ -51,7 +51,7 @@ const About = () => {
               <Link href="https://iamjulius.notion.site/Julius-Eghan-Resume-Cover-Letter-7e2405ee191a4cc9aae0af15fd806807">
                 <button  className='text-gray-500 flex space-x-1 items-center'>
                   <span className='text-sm hover:underline'>Get my Resume</span>
-                <FileText className='text-gray-500 animate-wiggle' size={14} />
+                <FileText className='text-gray-500' size={14} />
                 </button>
               </Link>
             </div>
