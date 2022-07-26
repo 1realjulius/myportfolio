@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Copy, FileText, Instagram, Linkedin, Twitter } from 'react-feather'
+import { Copy, Facebook, FileText, Heart, Instagram, Linkedin, Music, Twitter } from 'react-feather'
 
 const About = () => {
   return (

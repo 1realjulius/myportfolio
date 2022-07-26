@@ -129,7 +129,6 @@ const Main = () => {
                 </div>
               </Link>
               {/* Put other stuff here */}
-              {/* Put pinterest profile here to direct pple to it */}
             </div>            
           </div>
         </div>

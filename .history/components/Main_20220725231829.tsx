@@ -96,7 +96,7 @@ const Main = () => {
         <div id='Contact' className=' dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg p-2 justify-center'>
           <div className=''>
             <h1 className='mx-2 font-cadizMedium'>Get in Touch</h1>
-            <p className='px-2 text-xs'>Would you love to create some change in the world 🌍, contact me let make it happen.</p>
+            <p className='px-2 text-xs'>Wanna create some change in the world 🌍 contact me let make it happen.</p>
             <div className='border-2 m-2 divide-y-2 dark:divide-[#24292f] dark:border-[#24292f] rounded-lg'>
               <div className='flex justify-between p-2'>
                 <p className='flex items-center space-x-2'>
@@ -129,7 +129,6 @@ const Main = () => {
                 </div>
               </Link>
               {/* Put other stuff here */}
-              {/* Put pinterest profile here to direct pple to it */}
             </div>            
           </div>
         </div>
