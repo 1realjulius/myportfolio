@@ -90,8 +90,7 @@ const Main = () => {
         {/* about me */}
         <div id='Projects' className='opacity-50 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-6 items-center justify-center cursor-not-allowed'>
           <h1>My Journey</h1>
-          <p className='text-xs md:text-sm px-2 justify-center text-center'>A story on a to-be Entrepreneur and his final dream destination 🏖️</p>
-          <p className='text-xs md:text-sm px-2 justify-center text-center'>Coming this fall🏕️</p>
+          <p className='text-xs md:text-sm px-2 justify-center text-center'>A short story on a to-be Entrepreneur and his final dream destination 🏖️</p>
         </div> 
         {/* contact me */}
         <div id='Contact' className=' dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg p-2 justify-center'>

@@ -1,0 +1,2 @@
+ <h1>Get My Pricing and Packages List.</h1>
+ <p className=' font-cadizMedium text-xs text-gray-500 text-center'>I have made  a guided Pricing and Packages for my Clients who want to make change in the world 🌍.</p>

@@ -43,7 +43,7 @@ const About = () => {
             <div className='flex space-x-5 pt-2'>
             <div>
               <button className='text-gray-500 flex space-x-1 items-center'  onClick={() =>  navigator.clipboard.writeText('https://www.iamjulius.com/')} >
-                <p className='flex text-sm hover:underline items-center space-x-2'><span>Copy Link</span></p>
+                <p className='flex text-sm hover:underline items-center space-x-2'><span>Tap to copy and share</span></p>
                 <Copy className='text-gray-500 ' size={14} />
               </button>
             </div>

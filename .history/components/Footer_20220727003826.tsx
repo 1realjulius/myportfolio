@@ -2,7 +2,7 @@ import React from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 import Subscribe from './Subscribe'
-import { Bell, Calendar, Smile, X } from 'react-feather'
+import { Bell, X } from 'react-feather'
 
 const Footer = () => {
   
@@ -57,14 +57,8 @@ const Footer = () => {
                     as="h3"
                     className=" mx-2 text-lg font-cadizMedium leading-4 text-gray-900 flex flex-col space-y-2"
                   >
-                    <h1 className='text-red-400 flex items-center space-x-1'>
-                      <span>
-                        <Calendar className=' animate-wobble' size={18}/>
-                      </span>
-                      <span>Launching Soon.</span>
-                    </h1>
-                    <h2 className='dark:text-white text-black'>Ideatrends, <span className='text-gray-400'>Internet Tips and Tricks</span></h2>
-                    <p className=' font-cadizMedium text-sm text-gray-400'>I am gathering <span className='text-black dark:text-white'> internet tips and tricks</span> for anyone who likes to be on the internet as part of my meaningful change in the world 🌍 Journey.</p>
+                    <h1 className='text-white'>Get My Pricing and Packages List.</h1>
+                    <p className=' font-cadizMedium text-xs text-gray-400'>I have made  a guided Pricing and Packages for my Clients who want to make change in the world 🌍.</p>
 
                   </Dialog.Title>
                   <Subscribe/>
@@ -75,13 +69,13 @@ const Footer = () => {
         </Dialog>
       </Transition>
     <div className='flex bg-white dark:text-white dark:bg-[#0d1117] border-2 dark:border-[#24292f] rounded-lg py-2 mb-4 px-4 mx-4 items-center justify-center'>
-        <p className='flex text-xs'>I&apos;ve got something Awesome</p>
+        <p className='flex text-xs'>I have something Awesome</p>
          <p
           onClick={openModal}
           className="flex px-1 text-xs items-center space-x-1 hover:underline text-blue-600 cursor-pointer"
          >
           <span>Check it Out</span>
-          <Smile className=' animate-wiggle' size={14}/> 
+          <Bell size={14}/> 
           </p>         
 
     </div>

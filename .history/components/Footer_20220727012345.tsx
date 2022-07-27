@@ -59,7 +59,7 @@ const Footer = () => {
                   >
                     <h1 className='text-red-400 flex items-center space-x-1'>
                       <span>
-                        <Calendar className=' animate-wobble' size={18}/>
+                        <Calendar className=' animate-jello' size={18}/>
                       </span>
                       <span>Launching Soon.</span>
                     </h1>
@@ -81,7 +81,7 @@ const Footer = () => {
           className="flex px-1 text-xs items-center space-x-1 hover:underline text-blue-600 cursor-pointer"
          >
           <span>Check it Out</span>
-          <Smile className=' animate-wiggle' size={14}/> 
+          <Smile size={14}/> 
           </p>         
 
     </div>

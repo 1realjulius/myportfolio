@@ -45,7 +45,7 @@ function Subscribe() {
             value=""
             onClick={subscribe}
             name="subscribe"
-            className="items-center space-x-2 inline-flex justify-center active:bg-green-400 rounded-md border border-transparent bg-green-300 px-4 py-2 text-sm font-medium text-green-800 hover:bg-green-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 w-full"
+            className="items-center space-x-2 inline-flex justify-center active:bg-red-500 rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 w-full"
             
           >
             <p className="leading-none">Get Notified</p>
@@ -55,7 +55,7 @@ function Subscribe() {
           </button>
         </div>
         {state === 'Error' && (
-          <p className="error-state text-sm text-red-600 flex justify-center text-center ">{errorMsg}</p>
+          <p className="error-state text-sm text-red-600 flex justify-center text-center">{errorMsg}</p>
         )}
         {state === 'Success' && (
           <p className="text-sm text-green-600 flex justify-center text-center">Awesome, you will be notified!</p>

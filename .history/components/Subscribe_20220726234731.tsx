@@ -25,9 +25,9 @@ function Subscribe() {
 
   return (
     <div>
-      <form className="flex flex-col mx-2">
+      <form className="flex flex-col">
         <div className="col-span-3 sm:col-span-3">
-            <div className="mt-3 flex rounded-md shadow-sm">
+            <div className="mt-1 flex rounded-md shadow-sm">
               <input
                 type="text"
                 name="new-lient-email"
@@ -45,20 +45,23 @@ function Subscribe() {
             value=""
             onClick={subscribe}
             name="subscribe"
-            className="items-center space-x-2 inline-flex justify-center active:bg-green-400 rounded-md border border-transparent bg-green-300 px-4 py-2 text-sm font-medium text-green-800 hover:bg-green-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 w-full"
+            className="inline-flex justify-center active:bg-blue-500 rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 w-full"
             
           >
-            <p className="leading-none">Get Notified</p>
+            Get it now 
            <span>
-            <Mail className='' size={18} />
+            <Mail className='text-yellow-800 animate-wobble' size={14} />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mx-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+             <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+           </svg>
            </span>
           </button>
         </div>
         {state === 'Error' && (
-          <p className="error-state text-sm text-red-600 flex justify-center text-center ">{errorMsg}</p>
+          <p className="error-state text-sm text-red-600 flex justify-center text-center">{errorMsg}</p>
         )}
         {state === 'Success' && (
-          <p className="text-sm text-green-600 flex justify-center text-center">Awesome, you will be notified!</p>
+          <p className="text-sm text-green-600 flex justify-center text-center">Awesome, yor List will be sent shortly!</p>
         )}
         </form>
     </div>
