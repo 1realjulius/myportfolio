@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <meta property="twitter:url" content="https://www.iamjulius.com/"/>
         <meta property="twitter:title" content="Julius Eghan — Website and Software Developer"/>
         <meta property="twitter:description" content="Website and Software Developer from Ghana."/>
-        <meta property="twitter:image" content="/Assets/Julius_Eghan.jpg"/>
+        <meta property="twitter:image" content="/Assets/newmemoji.svg"/>
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="0HesePHVymRqGiL70HUKPIq0Zsap0uUIb_Ci0DpImRY" />
         <meta name="theme-color" content="#f7f2f2"   media="(prefers-color-scheme: light)"/>
