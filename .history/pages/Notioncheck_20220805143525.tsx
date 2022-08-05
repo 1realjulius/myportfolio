@@ -207,7 +207,7 @@ export default function Notioncheck() {
             <Link href='/'>
               <span className="mx-auto h-5 w-auto text-slate-900 cursor-pointer">iamjulius</span>              
             </Link>
-            <p className="mt-2 items-center text-center text-sm leading-6 text-slate-500">
+            <p className="mt-5 items-center text-center text-sm leading-6 text-slate-500">
               © 2022 Julius Eghan. All rights reserved.
             </p>
             <div className="mt-4 flex items-center justify-center space-x-4 text-sm font-semibold leading-6 text-slate-700">

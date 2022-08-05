@@ -46,7 +46,7 @@ export default function Notioncheck() {
             <div className="relative mx-auto max-w-container px-2 pt-4 pb-8 sm:px-6 lg:px-6 lg:pt-20">
               <div className="mx-auto grid max-w-[40rem] grid-cols-1 gap-y-12 gap-x-8 lg:max-w-none lg:grid-cols-4">
                 <div className="flex flex-col lg:col-span-2 lg:pb-6">
-                  <h1 className="flex flex-col pt-2 items-start text-4xl leading-none tracking-tight text-slate-900 sm:text-4xl">
+                  <h1 className="flex flex-col pt-2 items-start text-4xl leading-none tracking-tight text-slate-900 sm:text-4xl sm:leading-[3.5rem]">
                     <span className=" font-ApercuBold">Notioncheck</span>
                   </h1>
                   <div className="order-first flex ">
@@ -207,10 +207,10 @@ export default function Notioncheck() {
             <Link href='/'>
               <span className="mx-auto h-5 w-auto text-slate-900 cursor-pointer">iamjulius</span>              
             </Link>
-            <p className="mt-2 items-center text-center text-sm leading-6 text-slate-500">
+            <p className="mt-5 items-center text-center text-sm leading-6 text-slate-500">
               © 2022 Julius Eghan. All rights reserved.
             </p>
-            <div className="mt-4 flex items-center justify-center space-x-4 text-sm font-semibold leading-6 text-slate-700">
+            <div className="mt-16 flex items-center justify-center space-x-4 text-sm font-semibold leading-6 text-slate-700">
               <a href="/privacy-policy">Privacy policy</a>
               <div className="h-4 w-px bg-slate-500/20"></div>
               <a href="/changelog">Changelog</a>
