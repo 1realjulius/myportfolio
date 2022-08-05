@@ -1,31 +1,36 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, ArrowRightCircle, ChevronRight, Clock, Feather } from "react-feather";
+import {
+  ArrowLeft,
+  ArrowRightCircle,
+  ChevronRight,
+  Clock,
+  Feather,
+} from "react-feather";
 
 export default function Notioncheck() {
-
-      //Dummy Data for the Services
-      const Products = [
-        {
-          id: 1,
-          ProductName:'Freelance Web Dev Pack',
-          Img:'/Assets/Freelance-Web-Dev-Pack.png',
-          link:"https://notioncheck.gumroad.com/l/fwdp1"
-        },
-        {
-          id: 2,
-          ProductName:'Client Onboarding and Offboarding Checklist',
-          Img:'/Assets/Client-Onboarding-and-Offboarding.png',
-          link:"https://notioncheck.gumroad.com/l/coaofbc"
-        },
-        {
-          id: 3,
-          ProductName:'Business Invoice',
-          Img:'/Assets/Business-Invoice.png',
-          link:"https://notioncheck.gumroad.com/l/bi"
-        },
-      ];
+  //Dummy Data for the Services
+  const Products = [
+    {
+      id: 1,
+      ProductName: "Freelance Web Dev Pack",
+      Img: "/Assets/Freelance-Web-Dev-Pack.png",
+      link: "https://notioncheck.gumroad.com/l/fwdp1",
+    },
+    {
+      id: 2,
+      ProductName: "Client Onboarding and Offboarding Checklist",
+      Img: "/Assets/Client-Onboarding-and-Offboarding.png",
+      link: "https://notioncheck.gumroad.com/l/coaofbc",
+    },
+    {
+      id: 3,
+      ProductName: "Business Invoice",
+      Img: "/Assets/Business-Invoice.png",
+      link: "https://notioncheck.gumroad.com/l/bi",
+    },
+  ];
 
   return (
     <div className=" bg-[#f7f2f2]  font-cadizMedium md:font-ApercuMedium min-h-screen">
@@ -33,12 +38,12 @@ export default function Notioncheck() {
       <div className="px-8 md:px-6 py-2 dark:bg-[#090c10] dark:text-white">
         <Link href="/" className="">
           <div className="cursor-pointer text-xl space-x-2 text-gray-600">
-            <ArrowLeft className="inline-block w-4 h-4 ml-1 animate-headShake"  />
-          <span className="text-base ">Go Back</span>           
+            <ArrowLeft className="inline-block w-4 h-4 ml-1 animate-headShake" />
+            <span className="text-base ">Go Back</span>
           </div>
         </Link>
       </div>
-      <div className="px-8 md:px-6 pb-4">
+      <div className="px-4 md:px-6 pb-4">
         {/* nav and header */}
         <div>
           {/* header */}
@@ -51,9 +56,15 @@ export default function Notioncheck() {
                   </h1>
                   <div className="order-first flex ">
                     <p className="text-sm space-x-2 items-center flex text-blue-800 bg-blue-200 py-1 px-3 rounded-md">
-                      <Image src="/Assets/notion-logo-1.svg" width="12" height='12' alt="" className='' />
-                      <span>Free and Premium Template and Checklists</span>                      
-                    </p>                    
+                      <Image
+                        src="/Assets/notion-logo-1.svg"
+                        width="12"
+                        height="12"
+                        alt=""
+                        className=""
+                      />
+                      <span>Free and Premium Template and Checklists</span>
+                    </p>
                   </div>
                   <p className="mt-2 text-base text-slate-700">
                     Simplify your workflows with my Functional, comprehensive,
@@ -88,7 +99,9 @@ export default function Notioncheck() {
                     >
                       <span>
                         <span className="inline-flex items-center">
-                          <span className="text-xs md:text-base">Visit Website</span>
+                          <span className="text-xs md:text-base">
+                            Visit Website
+                          </span>
                           <svg
                             viewBox="0 0 20 20"
                             className="ml-1.5 h-5 w-5 fill-slate-400"
@@ -104,7 +117,9 @@ export default function Notioncheck() {
                       href="#Screenshots"
                       className="inline-flex justify-center rounded-lg text-sm py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 "
                     >
-                      <span className="text-xs md:text-base">View Product Screenshots</span>
+                      <span className="text-xs md:text-base">
+                        View Product Screenshots
+                      </span>
                       <ChevronRight className="ml-1.5 h-5 w-5" />
                     </a>
                   </div>
@@ -147,56 +162,71 @@ export default function Notioncheck() {
           <div className="max-w-2xl space-y-10 lg:col-span-2 prose prose-slate prose-a: prose-a:text-sky-500 hover:prose-a:text-sky-600">
             <div className="[&amp;>:first-child]:mt-0 [&amp;>:last-child]:mb-0">
               <p>
-              I have gathered the best, useful and functional checklists and guides that will change your workflow and increase your productivity.These are the • Freelance Pack • Small business and Start-up Pack • Students Pack.
-              • Content Creation Pack • Taveling Pack • Productivity Pack. And many more to come..
+                I have gathered the best, useful and functional checklists and
+                guides that will change your workflow and increase your
+                productivity.These are the • Freelance Pack • Small business and
+                Start-up Pack • Students Pack. • Content Creation Pack •
+                Taveling Pack • Productivity Pack. And many more to come..
               </p>
             </div>
             <p>
-              <strong>Freelance Web Dev Pack</strong> —  Functional and Comprehensive Web Development Pack with All the Essentials Freelance Tools for Managing your Web development Career and Clients.
+              <strong>Freelance Web Dev Pack</strong> — Functional and
+              Comprehensive Web Development Pack with All the Essentials
+              Freelance Tools for Managing your Web development Career and
+              Clients.
             </p>
             <p>
-              <strong>Freelance Workspace Checklist -01</strong> — A functional and comprehensive checklist for setting up your Freelancers workspace.
+              <strong>Freelance Workspace Checklist -01</strong> — A functional
+              and comprehensive checklist for setting up your Freelancers
+              workspace.
             </p>
             <p>
-              <strong>Client Onboarding And Offboarding Checklist</strong> — Manage your clients onboarding and offboarding with this functioal and effective checklists.
+              <strong>Client Onboarding And Offboarding Checklist</strong> —
+              Manage your clients onboarding and offboarding with this functioal
+              and effective checklists.
             </p>
             <p>
-              <strong>Business Invoice</strong> — Get your clients to pay professionally with my functioanl and effective invoice
+              <strong>Business Invoice</strong> — Get your clients to pay
+              professionally with my functioanl and effective invoice
             </p>
             <p>
-              <strong>Client Service Agreement</strong> — Create a legal relationship between you and your client.
+              <strong>Client Service Agreement</strong> — Create a legal
+              relationship between you and your client.
             </p>
           </div>
         </section>
         {/* Screenshots */}
-        <section id="Screenshots" className="grid grid-cols-1 gap-y-10 gap-x-6 pt-10 lg:grid-cols-3">
+        <section
+          id="Screenshots"
+          className="grid grid-cols-1 gap-y-10 gap-x-6 pt-10 lg:grid-cols-3"
+        >
           <h2 className="text-2xl  leading-9 tracking-tight text-slate-900">
-           Project Screenshots
+            Project Screenshots
           </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2">
-          {Products.map((values)=>{
-                  const {id,ProductName, Img, link } = values;
-                  return(
-            <div key={id} className='shadow-md bg-white p-2 rounded-lg'>
-              <Image
-                src={Img}
-                alt="This is a detail image"
-                width="1280"
-                height="720"
-                className=" rounded-lg"
-              />
-              <div className="flex flex-col md:flex-row">
-                <h1 className="ml-4 text-lg">{ProductName}</h1>
-                <Link href={link}>
-                  <span className="flex flex-row mx-4 md:mx-1 text-sm items-center cursor-pointer hover:opacity-60">
-                    <span> View Product Page</span>
-                    <ArrowRightCircle className="inline-block w-4 h-4 ml-1" />
-                  </span>
-                </Link>
-              </div>
-            </div>
-            )
-        })}
+            {Products.map((values) => {
+              const { id, ProductName, Img, link } = values;
+              return (
+                <div key={id} className="shadow-md bg-white p-2 rounded-lg">
+                  <Image
+                    src={Img}
+                    alt="This is a detail image"
+                    width="1280"
+                    height="720"
+                    className=" rounded-lg"
+                  />
+                  <div className="flex flex-col md:flex-row">
+                    <h1 className="ml-4 text-lg">{ProductName}</h1>
+                    <Link href={link}>
+                      <span className="flex flex-row mx-4 md:mx-1 text-sm items-center cursor-pointer hover:opacity-60">
+                        <span> View Product Page</span>
+                        <ArrowRightCircle className="inline-block w-4 h-4 ml-1" />
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </section>
         {/* Others and testimonials */}
@@ -204,8 +234,10 @@ export default function Notioncheck() {
         {/* footer */}
         <footer className="mx-auto mt-12 w-full max-w-container px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col border-t items-center border-slate-900/5 py-10">
-            <Link href='/'>
-              <span className="mx-auto h-5 w-auto text-slate-900 cursor-pointer">iamjulius</span>              
+            <Link href="/">
+              <span className="mx-auto h-5 w-auto text-slate-900 cursor-pointer">
+                iamjulius
+              </span>
             </Link>
             <p className="mt-2 items-center text-center text-sm leading-6 text-slate-500">
               © 2022 Julius Eghan. All rights reserved.
