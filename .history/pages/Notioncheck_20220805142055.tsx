@@ -95,7 +95,7 @@ export default function Notioncheck() {
                     >
                       <span>
                         <span className="inline-flex items-center">
-                          <span className="text-xs md:text-base">Visit Website</span>
+                          <span className="text-xs ">Visit Website</span>
                           <svg
                             viewBox="0 0 20 20"
                             className="ml-1.5 h-5 w-5 fill-slate-400"
@@ -111,7 +111,7 @@ export default function Notioncheck() {
                       href="#Screenshots"
                       className="inline-flex justify-center rounded-lg text-sm py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 "
                     >
-                      <span className="text-xs md:text-base">View Product Screenshots</span>
+                      <span className="text-xs">View Product Screenshots</span>
                       <ChevronRight className="ml-1.5 h-5 w-5" />
                     </a>
                   </div>

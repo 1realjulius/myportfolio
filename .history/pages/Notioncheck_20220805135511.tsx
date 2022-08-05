@@ -30,10 +30,10 @@ export default function Notioncheck() {
   return (
     <div className=" bg-[#f7f2f2]  font-cadizMedium md:font-ApercuMedium min-h-screen">
       {/* navbar */}
-      <div className="px-8 md:px-6 py-2 dark:bg-[#090c10] dark:text-white">
+      <div className="px-8 md:px-6 dark:bg-[#090c10] dark:text-white">
         <Link href="/" className="">
           <div className="cursor-pointer text-xl space-x-2 text-gray-600">
-            <ArrowLeft className="inline-block w-4 h-4 ml-1 animate-headShake"  />
+            <ArrowLeft className="inline-block w-4 h-4 ml-1" />
           <span className="text-base ">Go Back</span>           
           </div>
         </Link>
@@ -43,10 +43,10 @@ export default function Notioncheck() {
         <div>
           {/* header */}
           <div className="relative">
-            <div className="relative mx-auto max-w-container px-2 pt-4 pb-8 sm:px-6 lg:px-6 lg:pt-20">
+            <div className="relative mx-auto max-w-container px-4 pt-4 pb-8 sm:px-6 lg:px-6 lg:pt-20">
               <div className="mx-auto grid max-w-[40rem] grid-cols-1 gap-y-12 gap-x-8 lg:max-w-none lg:grid-cols-4">
                 <div className="flex flex-col lg:col-span-2 lg:pb-6">
-                  <h1 className="flex flex-col pt-2 items-start text-4xl leading-none tracking-tight text-slate-900 sm:text-4xl sm:leading-[3.5rem]">
+                  <h1 className="flex flex-col items-start text-4xl leading-none tracking-tight text-slate-900 sm:text-4xl sm:leading-[3.5rem]">
                     <span className=" font-ApercuBold">Notioncheck</span>
                     <Image
                       src="/Assets/underline-black.svg"
@@ -56,12 +56,9 @@ export default function Notioncheck() {
                       className="absolute bottom-0 text-black"
                     />
                   </h1>
-                  <div className="order-first flex ">
-                    <p className="text-sm space-x-2 items-center flex text-blue-800 bg-blue-200 py-1 px-3 rounded-md">
-                      <Image src="/Assets/notion-logo-1.svg" width="12" height='12' alt="" className='' />
-                      <span>Free and Premium Template and Checklists</span>                      
-                    </p>                    
-                  </div>
+                  <p className="order-first text-base leading-7 text-sky-500">
+                    Notion Templates and Checklists
+                  </p>
                   <p className="mt-2 text-base leading-7 text-slate-700">
                     Simplify your workflows with my Functional, comprehensive,
                     and beginner-friendly notion checklists.
@@ -95,7 +92,7 @@ export default function Notioncheck() {
                     >
                       <span>
                         <span className="inline-flex items-center">
-                          <span className="text-xs md:text-base">Visit Website</span>
+                          <span className="md:text-xs ">Visit Website</span>
                           <svg
                             viewBox="0 0 20 20"
                             className="ml-1.5 h-5 w-5 fill-slate-400"
@@ -111,7 +108,7 @@ export default function Notioncheck() {
                       href="#Screenshots"
                       className="inline-flex justify-center rounded-lg text-sm py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 "
                     >
-                      <span className="text-xs md:text-base">View Product Screenshots</span>
+                      <span>View Product Screenshots</span>
                       <ChevronRight className="ml-1.5 h-5 w-5" />
                     </a>
                   </div>
@@ -178,19 +175,19 @@ export default function Notioncheck() {
         {/* Screenshots */}
         <section id="Screenshots" className="grid grid-cols-1 gap-y-10 gap-x-6 pt-10 lg:grid-cols-3">
           <h2 className="text-2xl  leading-9 tracking-tight text-slate-900">
-           Project Screenshots
+            Screenshots
           </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2">
           {Products.map((values)=>{
                   const {id,ProductName, Img, link } = values;
                   return(
-            <div key={id} className='shadow-md bg-white p-2 rounded-lg'>
+            <div key={id}>
               <Image
                 src={Img}
                 alt="This is a detail image"
                 width="1280"
                 height="720"
-                className=" rounded-lg"
+                className="aspect-[384/246] rounded-lg bg-slate-200 ring-1 ring-slate-900/10"
               />
               <div className="flex flex-col md:flex-row">
                 <h1 className="ml-4 text-lg">{ProductName}</h1>
@@ -206,14 +203,118 @@ export default function Notioncheck() {
         })}
           </div>
         </section>
+
         {/* Others and testimonials */}
+        <section
+          id="faqs"
+          className="mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8 mt-32"
+        >
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-14 lg:max-w-5xl lg:px-8 xl:max-w-none xl:grid-cols-12 xl:px-0">
+            <div className="lg:col-span-4">
+              <h2 className="text-base  leading-7 text-indigo-500">
+                Frequently asked questions
+              </h2>
+              <p className="mt-4 text-4xl font-extrabold tracking-tight text-slate-900 xl:text-5xl xl:leading-[3.5rem]">
+                Everything you need to know
+              </p>
+            </div>
+            <div className="-mb-4 space-y-12 lg:col-span-8 xl:col-span-7 xl:col-start-6">
+              <section>
+                <h3 className="text-sm  leading-7 text-slate-400">General</h3>
+                <dl className="mt-2 divide-y divide-slate-100">
+                  <details className="group py-4 marker:content-['']">
+                    <summary className="flex w-full cursor-pointer select-none justify-between text-left text-base  leading-7 text-slate-900 group-open:text-indigo-600 [&amp;::-webkit-details-marker]:hidden">
+                      What does “lifetime access” mean exactly?
+                      <svg
+                        className="mt-0.5 ml-4 h-6 w-6 flex-none stroke-slate-700 group-open:stroke-indigo-500"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M18 12H6"></path>
+                        <path className="group-open:hidden" d="M12 6v12"></path>
+                      </svg>
+                    </summary>
+                    <div className="pt-6 pb-6">
+                      <div className="prose prose-slate max-w-none prose-a: prose-a:text-indigo-600 hover:prose-a:text-indigo-500">
+                        <p>
+                          Tailwind UI products are a{" "}
+                          <strong>
+                            one-time purchase, with no recurring subscription
+                          </strong>
+                          . When you purchase any Tailwind UI product, you have
+                          access to all of the content in that product forever.
+                        </p>
+                      </div>
+                    </div>
+                  </details>
+                  <details className="group py-4 marker:content-['']">
+                    <summary className="flex w-full cursor-pointer select-none justify-between text-left text-base  leading-7 text-slate-900 group-open:text-indigo-600 [&amp;::-webkit-details-marker]:hidden">
+                      What does “free updates” include?
+                      <svg
+                        className="mt-0.5 ml-4 h-6 w-6 flex-none stroke-slate-700 group-open:stroke-indigo-500"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M18 12H6"></path>
+                        <path className="group-open:hidden" d="M12 6v12"></path>
+                      </svg>
+                    </summary>
+                    <div className="pt-6 pb-6">
+                      <div className="prose prose-slate max-w-none prose-a: prose-a:text-indigo-600 hover:prose-a:text-indigo-500">
+                        <p>
+                          When you purchase any Tailwind UI product, any
+                          improvements we make to that product will always be
+                          free for anyone who owns that product.
+                        </p>
+                        <p>
+                          <strong>Individual templates:</strong> When you buy an
+                          individual template, any improvements we make to that
+                          template will be available to you as part of your
+                          original purchase.
+                        </p>
+                        <p>
+                          So if we fix a bug or upgrade the template to use the
+                          latest version of Tailwind CSS or Next.js, you can
+                          download an updated version of the template free of
+                          charge.
+                        </p>
+                        <p>
+                          Any <em>new</em> templates we release are considered
+                          separate products, and can be purchased separately.
+                        </p>
+                        <p>
+                          <strong>All-access:</strong> When you purchase an
+                          all-access license, you get access to every site
+                          template available <em>and</em> every component
+                          package available today, plus any new templates or
+                          component packages we release in the future at no
+                          additional cost.
+                        </p>
+                        <p>
+                          This means that if we add a brand new social media
+                          website template or new component package like
+                          “Journalism”, access to those products are included in
+                          your original purchase, with no upgrade cost.
+                        </p>
+                      </div>
+                    </div>
+                  </details>
+                </dl>
+              </section>
+            </div>
+          </div>
+        </section>
         <div></div>
         {/* footer */}
-        <footer className="mx-auto mt-12 w-full max-w-container px-4 sm:px-6 lg:px-8">
+        <footer className="mx-auto mt-32 w-full max-w-container px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col border-t items-center border-slate-900/5 py-10">
-            <Link href='/'>
-              <span className="mx-auto h-5 w-auto text-slate-900 cursor-pointer">iamjulius</span>              
-            </Link>
+            <span className="mx-auto h-5 w-auto text-slate-900">iamjulius</span>
             <p className="mt-5 items-center text-center text-sm leading-6 text-slate-500">
               © 2022 Julius Eghan. All rights reserved.
             </p>

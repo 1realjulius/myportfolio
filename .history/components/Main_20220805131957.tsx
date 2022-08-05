@@ -22,12 +22,6 @@ const Main = () => {
                 <h1 className='text-[12px] text-black'>Professional</h1>
               </div>
             </div>
-            <div className='flex  items-center'>
-              <div className='flex flex-row bg-yellow-200 items-center py-1 px-2 rounded space-x-2'>
-                <Image src="/Assets/notion-logo-1.svg" width="12" height='12' alt="" className='' />
-                <h1 className='text-[12px] text-black'>Free and Premium</h1>
-              </div>
-            </div>
           </div>
           <div className="my-2 mt-6 flex  space-x-2">
             <Image src="/Assets/Notioncheck-logo-01.svg" width="80%" height='80%' alt="" className='flex-1' />
@@ -36,11 +30,11 @@ const Main = () => {
               <p className='text-xs text-gray-400'>Simplify your workflows with my Functional, comprehensive and beginner friendly notion checklists.</p>
             </div>
           </div>
-          <div className='flex space-x-2 items-center justify-center bg-gray-200 dark:bg-inherit dark:border-2 dark:border-[#24292f] py-1 rounded-lg hover:opacity-40 cursor-pointer'>
+          <div className='flex space-x-2 items-center justify-center bg-gray-200 dark:bg-inherit dark:border-2 dark:border-[#24292f] py-1 rounded-lg hover:opacity-40'>
             <Link href="/Notioncheck">
                <div className='flex py-1 px-3 items-center  cursor-pointer space-x-2 animate-pulse'>
-                    <p className='text-black dark:text-white  text-sm leading-none'>View Project Page</p>
-                    <ExternalLink className='text-black dark:text-white animate-wobble' size={18} />
+                    <p className='text-black dark:text-white  text-sm leading-none'>View Project </p>
+                    <ExternalLink className='text-black dark:text-white' size={18} />
                </div>
             </Link>
           </div>

@@ -1,52 +1,26 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, ArrowRightCircle, ChevronRight, Clock, Feather } from "react-feather";
+import { Clock } from "react-feather";
 
 export default function Notioncheck() {
-
-      //Dummy Data for the Services
-      const Products = [
-        {
-          id: 1,
-          ProductName:'Freelance Web Dev Pack',
-          Img:'/Assets/Freelance-Web-Dev-Pack.png',
-          link:"https://notioncheck.gumroad.com/l/fwdp1"
-        },
-        {
-          id: 2,
-          ProductName:'Client Onboarding and Offboarding Checklist',
-          Img:'/Assets/Client-Onboarding-and-Offboarding.png',
-          link:"https://notioncheck.gumroad.com/l/coaofbc"
-        },
-        {
-          id: 3,
-          ProductName:'Business Invoice',
-          Img:'/Assets/Business-Invoice.png',
-          link:"https://notioncheck.gumroad.com/l/bi"
-        },
-      ];
-
   return (
     <div className=" bg-[#f7f2f2]  font-cadizMedium md:font-ApercuMedium min-h-screen">
-      {/* navbar */}
-      <div className="px-8 md:px-6 py-2 dark:bg-[#090c10] dark:text-white">
-        <Link href="/" className="">
-          <div className="cursor-pointer text-xl space-x-2 text-gray-600">
-            <ArrowLeft className="inline-block w-4 h-4 ml-1 animate-headShake"  />
-          <span className="text-base ">Go Back</span>           
-          </div>
-        </Link>
-      </div>
-      <div className="px-8 md:px-6 pb-4">
+      <div className="px-8 md:px-6 py-4">
         {/* nav and header */}
         <div>
+          {/* navbar */}
+          <div>
+            <Link href="/" className="cursor-pointer">
+              <span className="text-base cursor-pointer">iamjulius</span>
+            </Link>
+          </div>
           {/* header */}
           <div className="relative">
-            <div className="relative mx-auto max-w-container px-2 pt-4 pb-8 sm:px-6 lg:px-6 lg:pt-20">
-              <div className="mx-auto grid max-w-[40rem] grid-cols-1 gap-y-12 gap-x-8 lg:max-w-none lg:grid-cols-4">
-                <div className="flex flex-col lg:col-span-2 lg:pb-6">
-                  <h1 className="flex flex-col pt-2 items-start text-4xl leading-none tracking-tight text-slate-900 sm:text-4xl sm:leading-[3.5rem]">
+            <div className="relative mx-auto max-w-container px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
+              <div className="mx-auto grid max-w-[40rem] grid-cols-1 gap-y-12 gap-x-8 lg:max-w-none lg:grid-cols-3">
+                <div className="flex flex-col lg:pb-6">
+                  <h1 className="flex flex-col items-start mt-4 text-4xl font-extrabold leading-none tracking-tight text-slate-900 sm:text-5xl sm:leading-[3.5rem]">
                     <span className=" font-ApercuBold">Notioncheck</span>
                     <Image
                       src="/Assets/underline-black.svg"
@@ -56,13 +30,10 @@ export default function Notioncheck() {
                       className="absolute bottom-0 text-black"
                     />
                   </h1>
-                  <div className="order-first flex ">
-                    <p className="text-sm space-x-2 items-center flex text-blue-800 bg-blue-200 py-1 px-3 rounded-md">
-                      <Image src="/Assets/notion-logo-1.svg" width="12" height='12' alt="" className='' />
-                      <span>Free and Premium Template and Checklists</span>                      
-                    </p>                    
-                  </div>
-                  <p className="mt-2 text-base leading-7 text-slate-700">
+                  <p className="order-first text-base leading-7 text-sky-500">
+                    Notion Templates and Checklists
+                  </p>
+                  <p className="mt-6 text-base leading-7 text-slate-700">
                     Simplify your workflows with my Functional, comprehensive,
                     and beginner-friendly notion checklists.
                   </p>
@@ -88,14 +59,14 @@ export default function Notioncheck() {
                   </div>
                   <div className="mt-3 flex gap-4">
                     <a
-                      href="https://notioncheck.gumroad.com/"
+                      href="https://transmit.tailwindui.com"
                       className="inline-flex justify-center rounded-lg text-sm py-3 px-4 bg-slate-900 text-white hover:bg-slate-700"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <span>
                         <span className="inline-flex items-center">
-                          <span className="text-xs md:text-base">Visit Website</span>
+                          <span>Visit Website</span>
                           <svg
                             viewBox="0 0 20 20"
                             className="ml-1.5 h-5 w-5 fill-slate-400"
@@ -108,11 +79,15 @@ export default function Notioncheck() {
                       </span>
                     </a>
                     <a
-                      href="#Screenshots"
+                      href="#pricing"
                       className="inline-flex justify-center rounded-lg text-sm py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 "
                     >
-                      <span className="text-xs md:text-base">View Product Screenshots</span>
-                      <ChevronRight className="ml-1.5 h-5 w-5" />
+                      <span>
+                        Get this template
+                        <span aria-hidden="true" className="text-black/25">
+                          →
+                        </span>
+                      </span>
                     </a>
                   </div>
                 </div>
@@ -148,82 +123,70 @@ export default function Notioncheck() {
         </div>
         {/* whats included section */}
         <section className="grid grid-cols-1 items-baseline gap-y-10 gap-x-6 lg:grid-cols-3">
-          <h2 className="text-2xl  leading-9 tracking-tight text-slate-900">
+          <h2 className="text-2xl font-semibold leading-9 tracking-tight text-slate-900">
             What’s included
           </h2>
-          <div className="max-w-2xl space-y-10 lg:col-span-2 prose prose-slate prose-a: prose-a:text-sky-500 hover:prose-a:text-sky-600">
+          <div className="max-w-2xl space-y-10 lg:col-span-2 prose prose-slate prose-a:font-semibold prose-a:text-sky-500 hover:prose-a:text-sky-600">
             <div className="[&amp;>:first-child]:mt-0 [&amp;>:last-child]:mb-0">
               <p>
-              I have gathered the best, useful and functional checklists and guides that will change your workflow and increase your productivity.These are the • Freelance Pack • Small business and Start-up Pack • Students Pack.
-              • Content Creation Pack • Taveling Pack • Productivity Pack. And many more to come..
+                Transmit is a beautiful podcast template built with Tailwind CSS
+                and Next.js, designed and built by the Tailwind CSS team. It’s
+                production-ready and easy to customize, making it the perfect
+                starting point for your own podcast site.
+              </p>
+              <p>
+                We’ve taken just as much care with the code as we have with the
+                design, so it’s also an invaluable resource if you want to study
+                how experts build a website with Tailwind CSS and React.
               </p>
             </div>
             <p>
-              <strong>Freelance Web Dev Pack</strong> —  Functional and Comprehensive Web Development Pack with All the Essentials Freelance Tools for Managing your Web development Career and Clients.
+              <strong>Built by experts</strong> — you can trust that all of the
+              code is written following Tailwind CSS best practices, because
+              it’s written by the same team who created and maintain the
+              framework.
             </p>
             <p>
-              <strong>Freelance Workspace Checklist -01</strong> — A functional and comprehensive checklist for setting up your Freelancers workspace.
+              <strong>Easy to customize</strong> — everything is styled with
+              utility classes, directly in the markup. No configuration
+              variables or complex CSS to wrestle with, just open the markup in
+              your editor and change whatever you want.
             </p>
             <p>
-              <strong>Client Onboarding And Offboarding Checklist</strong> — Manage your clients onboarding and offboarding with this functioal and effective checklists.
+              <strong>Built with Next.js</strong> —&nbsp;the template is a
+              well-structured, thoughtfully componentized Next.js project,
+              giving you a codebase that’s productive and enjoyable to work in.
             </p>
             <p>
-              <strong>Business Invoice</strong> — Get your clients to pay professionally with my functioanl and effective invoice
+              <strong>Keyboard accessible</strong> — everything we build is
+              keyboard accessible, and we carefully craft the markup to deliver
+              the best screenreader experience we know how.
             </p>
             <p>
-              <strong>Client Service Agreement</strong> — Create a legal relationship between you and your client.
+              <strong>Production-ready</strong> —&nbsp;rigorously tested in the
+              latest versions of all browsers to handle lots of edge-cases you
+              might easily miss yourself.
+            </p>
+            <p>
+              <strong>Simple to deploy</strong> — production-ready and easily
+              deployed anywhere that you can deploy a Next.js application, like
+              Vercel or Netlify.
             </p>
           </div>
         </section>
+        <div></div>
         {/* Screenshots */}
-        <section id="Screenshots" className="grid grid-cols-1 gap-y-10 gap-x-6 pt-10 lg:grid-cols-3">
-          <h2 className="text-2xl  leading-9 tracking-tight text-slate-900">
-           Project Screenshots
-          </h2>
+        <section className="grid grid-cols-1 gap-y-10 gap-x-6 pt-10 lg:grid-cols-3">
+          <h2 className="text-2xl font-semibold leading-9 tracking-tight text-slate-900">Screenshots</h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2">
-          {Products.map((values)=>{
-                  const {id,ProductName, Img, link } = values;
-                  return(
-            <div key={id} className='shadow-md bg-white p-2 rounded-lg'>
-              <Image
-                src={Img}
-                alt="This is a detail image"
-                width="1280"
-                height="720"
-                className=" rounded-lg"
-              />
-              <div className="flex flex-col md:flex-row">
-                <h1 className="ml-4 text-lg">{ProductName}</h1>
-                <Link href={link}>
-                  <span className="flex flex-row mx-4 md:mx-1 text-sm items-center cursor-pointer hover:opacity-60">
-                    <span> View Product Page</span>
-                    <ArrowRightCircle className="inline-block w-4 h-4 ml-1" />
-                  </span>
-                </Link>
-              </div>
+            <Image src="https://tailwindui.com/img/templates/transmit/detail-01.png" alt="This is a detail image" width='42' height='62' className="aspect-[384/246] rounded-lg bg-slate-200 ring-1 ring-slate-900/10"/>
+            <Image src="https://tailwindui.com/img/templates/transmit/detail-02.png" alt="This is a detail image" width='42' height='62' className="aspect-[384/246] rounded-lg bg-slate-200 ring-1 ring-slate-900/10"/>
+            <Image src="https://tailwindui.com/img/templates/transmit/detail-03.png" alt="This is a detail image" width='42' height='62' className="aspect-[384/246] rounded-lg bg-slate-200 ring-1 ring-slate-900/10"/>
+            <Image src="https://tailwindui.com/img/templates/transmit/detail-04.png" alt="This is a detail image" width='42' height='62' className="aspect-[384/246] rounded-lg bg-slate-200 ring-1 ring-slate-900/10"/>
             </div>
-            )
-        })}
-          </div>
         </section>
         {/* Others and testimonials */}
         <div></div>
-        {/* footer */}
-        <footer className="mx-auto mt-12 w-full max-w-container px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col border-t items-center border-slate-900/5 py-10">
-            <Link href='/'>
-              <span className="mx-auto h-5 w-auto text-slate-900 cursor-pointer">iamjulius</span>              
-            </Link>
-            <p className="mt-5 items-center text-center text-sm leading-6 text-slate-500">
-              © 2022 Julius Eghan. All rights reserved.
-            </p>
-            <div className="mt-16 flex items-center justify-center space-x-4 text-sm font-semibold leading-6 text-slate-700">
-              <a href="/privacy-policy">Privacy policy</a>
-              <div className="h-4 w-px bg-slate-500/20"></div>
-              <a href="/changelog">Changelog</a>
-            </div>
-          </div>
-        </footer>
       </div>
     </div>
   );

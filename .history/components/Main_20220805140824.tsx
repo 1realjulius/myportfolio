@@ -23,7 +23,7 @@ const Main = () => {
               </div>
             </div>
             <div className='flex  items-center'>
-              <div className='flex flex-row bg-yellow-200 items-center py-1 px-2 rounded space-x-2'>
+              <div className='flex flex-row bg-blue-200 items-center py-1 px-2 rounded space-x-2'>
                 <Image src="/Assets/notion-logo-1.svg" width="12" height='12' alt="" className='' />
                 <h1 className='text-[12px] text-black'>Free and Premium</h1>
               </div>
@@ -40,7 +40,7 @@ const Main = () => {
             <Link href="/Notioncheck">
                <div className='flex py-1 px-3 items-center  cursor-pointer space-x-2 animate-pulse'>
                     <p className='text-black dark:text-white  text-sm leading-none'>View Project Page</p>
-                    <ExternalLink className='text-black dark:text-white animate-wobble' size={18} />
+                    <ExternalLink className='text-black dark:text-white' size={18} />
                </div>
             </Link>
           </div>

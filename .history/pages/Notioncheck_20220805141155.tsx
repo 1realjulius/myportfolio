@@ -43,7 +43,7 @@ export default function Notioncheck() {
         <div>
           {/* header */}
           <div className="relative">
-            <div className="relative mx-auto max-w-container px-2 pt-4 pb-8 sm:px-6 lg:px-6 lg:pt-20">
+            <div className="relative mx-auto max-w-container px-4 pt-4 pb-8 sm:px-6 lg:px-6 lg:pt-20">
               <div className="mx-auto grid max-w-[40rem] grid-cols-1 gap-y-12 gap-x-8 lg:max-w-none lg:grid-cols-4">
                 <div className="flex flex-col lg:col-span-2 lg:pb-6">
                   <h1 className="flex flex-col pt-2 items-start text-4xl leading-none tracking-tight text-slate-900 sm:text-4xl sm:leading-[3.5rem]">
@@ -95,7 +95,7 @@ export default function Notioncheck() {
                     >
                       <span>
                         <span className="inline-flex items-center">
-                          <span className="text-xs md:text-base">Visit Website</span>
+                          <span className="md:text-xs ">Visit Website</span>
                           <svg
                             viewBox="0 0 20 20"
                             className="ml-1.5 h-5 w-5 fill-slate-400"
@@ -111,7 +111,7 @@ export default function Notioncheck() {
                       href="#Screenshots"
                       className="inline-flex justify-center rounded-lg text-sm py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 "
                     >
-                      <span className="text-xs md:text-base">View Product Screenshots</span>
+                      <span>View Product Screenshots</span>
                       <ChevronRight className="ml-1.5 h-5 w-5" />
                     </a>
                   </div>
@@ -178,19 +178,19 @@ export default function Notioncheck() {
         {/* Screenshots */}
         <section id="Screenshots" className="grid grid-cols-1 gap-y-10 gap-x-6 pt-10 lg:grid-cols-3">
           <h2 className="text-2xl  leading-9 tracking-tight text-slate-900">
-           Project Screenshots
+            Screenshots
           </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2">
           {Products.map((values)=>{
                   const {id,ProductName, Img, link } = values;
                   return(
-            <div key={id} className='shadow-md bg-white p-2 rounded-lg'>
+            <div key={id}>
               <Image
                 src={Img}
                 alt="This is a detail image"
                 width="1280"
                 height="720"
-                className=" rounded-lg"
+                className="aspect-[384/246] rounded-lg bg-slate-200 ring-1 ring-slate-900/10"
               />
               <div className="flex flex-col md:flex-row">
                 <h1 className="ml-4 text-lg">{ProductName}</h1>

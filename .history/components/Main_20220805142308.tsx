@@ -37,7 +37,7 @@ const Main = () => {
             </div>
           </div>
           <div className='flex space-x-2 items-center justify-center bg-gray-200 dark:bg-inherit dark:border-2 dark:border-[#24292f] py-1 rounded-lg hover:opacity-40 cursor-pointer'>
-            <Link href="/Notioncheck">
+            <Link href="/Notioncheck"  target="_blank" rel="noreferrer">
                <div className='flex py-1 px-3 items-center  cursor-pointer space-x-2 animate-pulse'>
                     <p className='text-black dark:text-white  text-sm leading-none'>View Project Page</p>
                     <ExternalLink className='text-black dark:text-white animate-wobble' size={18} />

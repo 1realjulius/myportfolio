@@ -40,7 +40,7 @@ const Main = () => {
             <Link href="/Notioncheck">
                <div className='flex py-1 px-3 items-center  cursor-pointer space-x-2 animate-pulse'>
                     <p className='text-black dark:text-white  text-sm leading-none'>View Project Page</p>
-                    <ExternalLink className='text-black dark:text-white animate-wobble' size={18} />
+                    <ExternalLink className='text-black dark:text-white' size={18} />
                </div>
             </Link>
           </div>
