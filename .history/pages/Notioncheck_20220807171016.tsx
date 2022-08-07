@@ -33,7 +33,7 @@ export default function Notioncheck() {
   ];
 
   return (
-    <div className="scroll-smooth bg-[#f7f2f2]  font-cadizMedium md:font-ApercuMedium min-h-screen">
+    <div className=" bg-[#f7f2f2]  font-cadizMedium md:font-ApercuMedium min-h-screen">
       {/* navbar */}
       <div className="px-8 md:px-6 py-2 dark:bg-[#090c10] dark:text-white">
         <Link href="/" className="">
@@ -115,7 +115,7 @@ export default function Notioncheck() {
                     </a>
                     <a
                       href="#Screenshots"
-                      className="flex flrx-row items-center justify-center rounded-lg text-sm py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 "
+                      className="scroll-smooth flex flrx-row items-center justify-center rounded-lg text-sm py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 "
                     >
                       <span className="text-xs md:text-base">
                         View Product Screenshots

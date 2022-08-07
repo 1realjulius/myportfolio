@@ -76,19 +76,19 @@ const Main = () => {
                   <path d="M11.75 21.25v-9.5L24 26" stroke="url(#next-icon-gradient)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                   <path d="M21 11.75a.75.75 0 0 0-1.5 0v4.172l1.5 1.64V11.75Z" fill="#94A3B8" strokeWidth="0"></path>
                 </svg>
-                <span className="ml-2.5 font-cadizMedium">Next.js</span>
+                <span className="ml-2.5">Next.js</span>
               </div>
               <h2 className='text-sm font-cadizMedium'>Next Js Websites. I write clean and functional codes for websites like <span className='text-blue-400'> E-comerce</span>, <span className='text-blue-400'>Portfolio sites</span>,<span className='text-blue-400'> Agency Sites</span> and <span className='text-blue-400'>Saas Sites.</span></h2>
             </div>
             <div className='flex flex-col items-start pt-2  p-2 '>
               <div className="flex items-center text-sm font-medium text-slate-500">
-                <svg fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-spin h-8 w-8 flex-none stroke-blue-400" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg fill="none" xmlns="http://www.w3.org/2000/svg" className=" hover:animate-spin h-8 w-8 flex-none stroke-blue-400" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <ellipse cx="16" cy="16" rx="13" ry="5"></ellipse>
                   <ellipse cx="16" cy="16" rx="13" ry="5" transform="rotate(60 16 16)"></ellipse>
                   <ellipse rx="13" ry="5" transform="matrix(-.5 .86603 .86603 .5 16 16)"></ellipse>
                   <circle cx="16" cy="16" r="2"></circle>
                 </svg>
-                <span className="ml-2.5 font-cadizMedium">React Native</span>
+                <span className="ml-2.5">React Native</span>
               </div>
               <h2 className='text-sm font-cadizMedium'>React Native Apps. I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal <span className='text-blue-400'>ios</span>, <span className='text-blue-400'>android</span>, <span className='text-blue-400'>windows app</span>, <span className='text-blue-400'>mac app</span>, and <span className='text-blue-400'>web apps.</span></h2>
             </div>

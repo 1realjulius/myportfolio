@@ -64,45 +64,30 @@ const Main = () => {
           </div>
           <div className='border-2 divide-y-2  dark:border-[#24292f] dark:divide-[#24292f] rounded-lg'>
             <div className='flex flex-col items-start pt-2 p-2 '>
-              <div className="flex items-center text-sm font-medium text-slate-500">
-                <svg fill="none" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 flex-none stroke-slate-400" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <defs>
-                    <linearGradient id="next-icon-gradient" x1="14.875" y1="18" x2="24" y2="27.125" gradientUnits="userSpaceOnUse">
-                      <stop offset=".24" stopColor="#94A3B8"></stop>
-                      <stop offset="1" stopColor="#94A3B8" stopOpacity="0"></stop>
-                    </linearGradient>
-                  </defs>
-                  <circle cx="16" cy="16" r="12.25" stroke="#94A3B8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></circle>
-                  <path d="M11.75 21.25v-9.5L24 26" stroke="url(#next-icon-gradient)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
-                  <path d="M21 11.75a.75.75 0 0 0-1.5 0v4.172l1.5 1.64V11.75Z" fill="#94A3B8" strokeWidth="0"></path>
-                </svg>
-                <span className="ml-2.5 font-cadizMedium">Next.js</span>
-              </div>
-              <h2 className='text-sm font-cadizMedium'>Next Js Websites. I write clean and functional codes for websites like <span className='text-blue-400'> E-comerce</span>, <span className='text-blue-400'>Portfolio sites</span>,<span className='text-blue-400'> Agency Sites</span> and <span className='text-blue-400'>Saas Sites.</span></h2>
+            <Image className='' src="/Assets/nextjs-logo.png" width={22} height={22} alt="" />
+              <h2 className='text-sm'><span className='font-cadizMedium'>Next Js Websites.</span> I write clean and functional codes for websites like <span className='text-blue-400'> E-comerce</span>, <span className='text-blue-400'>Portfolio sites</span>,<span className='text-blue-400'> Agency Sites</span> and <span className='text-blue-400'>Saas Sites.</span></h2>
             </div>
             <div className='flex flex-col items-start pt-2  p-2 '>
-              <div className="flex items-center text-sm font-medium text-slate-500">
-                <svg fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-spin h-8 w-8 flex-none stroke-blue-400" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <ellipse cx="16" cy="16" rx="13" ry="5"></ellipse>
-                  <ellipse cx="16" cy="16" rx="13" ry="5" transform="rotate(60 16 16)"></ellipse>
-                  <ellipse rx="13" ry="5" transform="matrix(-.5 .86603 .86603 .5 16 16)"></ellipse>
-                  <circle cx="16" cy="16" r="2"></circle>
-                </svg>
-                <span className="ml-2.5 font-cadizMedium">React Native</span>
-              </div>
-              <h2 className='text-sm font-cadizMedium'>React Native Apps. I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal <span className='text-blue-400'>ios</span>, <span className='text-blue-400'>android</span>, <span className='text-blue-400'>windows app</span>, <span className='text-blue-400'>mac app</span>, and <span className='text-blue-400'>web apps.</span></h2>
+            <Image className=' animate-spin' src="/Assets/react-native.png" width={24} height={22} alt="" />
+              <svg fill="none" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 flex-none stroke-slate-400" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <ellipse cx="16" cy="16" rx="13" ry="5"></ellipse>
+                <ellipse cx="16" cy="16" rx="13" ry="5" transform="rotate(60 16 16)"></ellipse>
+                <ellipse rx="13" ry="5" transform="matrix(-.5 .86603 .86603 .5 16 16)"></ellipse>
+                <circle cx="16" cy="16" r="2"></circle>
+              </svg>
+              <h2 className='text-sm'><span className='font-cadizMedium'>React Native Apps.</span> I code functioanl mobile and desktop apps with one of the best cross-platform frameworks.I can make you a functioal <span className='text-blue-400'>ios</span>, <span className='text-blue-400'>android</span>, <span className='text-blue-400'>windows app</span>, <span className='text-blue-400'>mac app</span>, and <span className='text-blue-400'>web apps.</span></h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2 '>
               <Image className='' src="/Assets/webflow-icon.svg" width={55} height={22} alt="" />
-              <h2 className='text-sm font-cadizMedium'>No-code Development. I can create a stunning and functional no-code webapp for your idea.</h2>
+              <h2 className='text-sm'><span className='font-cadizMedium'>No-code Development.</span> I can create a stunning and functional no-code webapp for your idea.</h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2'>
               <Image className='' src="/Assets/figma-icon.svg" width={55} height={47} alt="" />
-              <h2 className='text-sm font-cadizMedium'>Product Prototyping. I can create a prototype  for your next website or software idea.</h2>
+              <h2 className='text-sm'><span className='font-cadizMedium'>Product Prototyping.</span> I can create a prototype  for your next website or software idea.</h2>
             </div>
             <div className='flex flex-col items-start pt-2 p-2'>
               <Image className=' animate-wiggle' src="/Assets/newmemoji.svg" width={30} height={30} alt=""  />
-              <h2 className='text-sm font-cadizMedium'>Partnership. I am always available for your startup partnership, to create the next change in the world.</h2>
+              <h2 className='text-sm'><span className='font-cadizMedium'>Partnership.</span> I am always available for your startup partnership, to create the next change in the world.</h2>
             </div>
           </div>
         </div>

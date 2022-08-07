@@ -82,7 +82,7 @@ const Main = () => {
             </div>
             <div className='flex flex-col items-start pt-2  p-2 '>
               <div className="flex items-center text-sm font-medium text-slate-500">
-                <svg fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-spin h-8 w-8 flex-none stroke-blue-400" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg fill="none" xmlns="http://www.w3.org/2000/svg" className=" hover:animate-spin h-8 w-8 flex-none stroke-blue-400" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <ellipse cx="16" cy="16" rx="13" ry="5"></ellipse>
                   <ellipse cx="16" cy="16" rx="13" ry="5" transform="rotate(60 16 16)"></ellipse>
                   <ellipse rx="13" ry="5" transform="matrix(-.5 .86603 .86603 .5 16 16)"></ellipse>
