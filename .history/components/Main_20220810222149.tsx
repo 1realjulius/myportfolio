@@ -8,7 +8,7 @@ const Main = () => {
     <div>
       <div className='text-black dark:text-white flex flex-col md:grid md:grid-cols-3 md:gap-4 gap-2 px-4 md:px-4 py-2'>
         {/* about me */}
-      <div className='bg-white dark:bg-[#0d1117] col-span-3 row-span-2 my-1 p-4 rounded-lg border-2 dark:border-[#24292f]'>
+      <div className='bg-white dark:bg-[#0d1117]  my-1 p-4 rounded-lg border-2 dark:border-[#24292f]'>
           <div className='flex items-center justify-between'>
             <Image src="/Assets/newmemoji.svg" width={72} height={72} alt="Julius Eghan Memoji" className=' animate-headShake' />
             {/* put the dark mode toggle here */}
