@@ -404,10 +404,10 @@ const Main = () => {
             </p>
             <div className="border-2 m-2 divide-y-2 dark:divide-[#24292f] dark:border-[#24292f] rounded-lg">
               <div className="flex justify-between p-2">
-                <div className="flex items-center space-x-2">
+                <p className="flex items-center space-x-2">
                   <PhoneCall className="text-black dark:text-white" size={16} />
                   <span className="text-sm">Phone</span>
-                </div>
+                </p>
                 <Link href="tel:+233549321512">
                   <span className="text-sm cursor-pointer text-blue-400 hover:underline">
                     +233 549321512

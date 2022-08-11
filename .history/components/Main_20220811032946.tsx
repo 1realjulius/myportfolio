@@ -404,10 +404,10 @@ const Main = () => {
             </p>
             <div className="border-2 m-2 divide-y-2 dark:divide-[#24292f] dark:border-[#24292f] rounded-lg">
               <div className="flex justify-between p-2">
-                <div className="flex items-center space-x-2">
+                <p className="flex items-center space-x-2">
                   <PhoneCall className="text-black dark:text-white" size={16} />
                   <span className="text-sm">Phone</span>
-                </div>
+                </p>
                 <Link href="tel:+233549321512">
                   <span className="text-sm cursor-pointer text-blue-400 hover:underline">
                     +233 549321512
@@ -415,10 +415,10 @@ const Main = () => {
                 </Link>
               </div>
               <div className="flex justify-between p-2">
-                <div className="flex items-center space-x-2">
+                <p className="flex items-center space-x-2">
                   <Mail className="text-black dark:text-white" size={18} />
                   <span className="text-sm">Email</span>
-                </div>
+                </p>
                 <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Can I work with you 💰">
                   <span className="text-sm cursor-pointer text-blue-400 hover:underline">
                     iamjuliusbusiness@gmail.com
@@ -469,6 +469,7 @@ const Main = () => {
                       id="BuyMeACoffe"
                       className="flex justify-between cursor-pointer  p-2"
                     >
+                      <div className="flex items-center space-x-2">
                         <Image
                           className=""
                           src="/Assets/bmc-full-logo.svg"
@@ -476,6 +477,7 @@ const Main = () => {
                           height={24}
                           alt=""
                         />
+                      </div>
                       <Image
                           className=" animate-wiggle"
                           src="/Assets/bmc-logo.svg"
