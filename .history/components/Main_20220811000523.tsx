@@ -384,9 +384,8 @@ const Main = () => {
           id="Contact"
           className=" dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg p-2 justify-center"
         >
-          <div className="">
-            <div className="flex">
-            <h1 className="relative ml-2">
+          <div className="flex flex-col">
+          <h1 className="relative ml-2">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 418 42"
@@ -397,7 +396,6 @@ const Main = () => {
               </svg>
               <span>Get in touch</span>
             </h1>
-            </div>
             <p className="px-2 text-xs">
               Would you love to create some change in the world 🌍, contact me
               let make it happen.

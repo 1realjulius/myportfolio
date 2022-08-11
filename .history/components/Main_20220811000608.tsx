@@ -385,7 +385,7 @@ const Main = () => {
           className=" dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg p-2 justify-center"
         >
           <div className="">
-            <div className="flex">
+            <div>
             <h1 className="relative ml-2">
               <svg
                 aria-hidden="true"

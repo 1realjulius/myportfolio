@@ -80,7 +80,7 @@ const Footer = () => {
           onClick={openModal}
           className="flex px-1 text-xs items-center space-x-1 hover:underline text-blue-600 cursor-pointer"
          >
-         <h1 className="relative">
+         <h1 className="relative ml-2">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 418 42"
