@@ -328,7 +328,7 @@ const Main = () => {
             <div className="flex flex-col items-start pt-2 p-2 ">
               <span>
                 <svg
-                  width="68"
+                  width="72"
                   height="18"
                   viewBox="0 0 89 23"
                   fill="none"

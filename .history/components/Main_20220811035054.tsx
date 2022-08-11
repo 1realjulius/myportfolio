@@ -328,8 +328,8 @@ const Main = () => {
             <div className="flex flex-col items-start pt-2 p-2 ">
               <span>
                 <svg
-                  width="68"
-                  height="18"
+                  width="78"
+                  height="20"
                   viewBox="0 0 89 23"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -340,6 +340,13 @@ const Main = () => {
                   />
                 </svg>
               </span>
+              <Image
+                className=""
+                src="/Assets/webflow-icon.svg"
+                width={55}
+                height={22}
+                alt=""
+              />
               <h2 className="text-sm font-cadizMedium">
                 No-code Development. I can create a stunning and functional
                 no-code webapp for your idea.
