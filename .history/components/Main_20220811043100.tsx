@@ -328,7 +328,7 @@ const Main = () => {
             <div className="flex flex-col items-start pt-2 p-2 ">
               <span>
                 <svg
-                  width="60"
+                  width="68"
                   height="18"
                   viewBox="0 0 89 23"
                   fill="none"
@@ -384,6 +384,13 @@ const Main = () => {
                   />
                 </svg>
               </span>
+              <Image
+                className=""
+                src="/Assets/figma-icon.svg"
+                width={55}
+                height={47}
+                alt=""
+              />
               <h2 className="text-sm font-cadizMedium">
                 Product Prototyping. I can create a prototype for your next
                 website or software idea.
