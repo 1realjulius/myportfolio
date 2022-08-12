@@ -4,12 +4,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
-   
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.2.6",
+    "@chakra-ui/tabs": "^2.0.8",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
     "@headlessui/react": "^1.6.4",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
+    "framer-motion": "^7.1.0",
     "html-entities": "^2.3.3",
     "next": "latest",
     "next-themes": "^0.2.0",
