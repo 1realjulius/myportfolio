@@ -121,7 +121,7 @@ const Main = () => {
         </div>
         {/* notioncheck project was here */}
         {/* project 1 section */}
-        <div className=" hidden p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
+        <div className="p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg  cursor-not-allowed">
           <div>
             {/* Img width= 400 and height= 200 */}
           <Image
@@ -135,23 +135,19 @@ const Main = () => {
           <div className="p-2">
             <div className="flex flex-row items-center justify-between">
               <h1>Project Name</h1>
-              <div className="flex flex-row items-center space-x-2 bg-blue-200 px-3 py-1 rounded-md text-sm">
+              <div className="bg-blue-200 px-3 py-1 rounded-md text-sm">
                 <p>View Project</p>
                 <span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                 </svg>
                 </span>
               </div>
             </div>
-            <div className="text-sm mt-1">
-              <p>This is the projects short description that should not take more space.</p>
+            <div className="text-sm">
+              <p>This is the projects short description</p>
             </div>
           </div>
-        </div>
-        {/* project 2 section */}
-        <div className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
-          <div>Project 1</div>
         </div>
         {/* project 2 section */}
         <div className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">

@@ -5,19 +5,18 @@ import {
   Copy,
   Instagram,
   Linkedin,
-  Mail,
+  Moon,
   Package,
   PhoneCall,
   Speaker,
   Twitter,
-} from "react-feather";
-21;
+} from "react-feather";21
 
 const Main = () => {
   return (
     <div>
       <div className="text-black dark:text-white flex flex-col md:grid md:grid-cols-3 md:gap-4 gap-2 px-4 md:px-4 py-2">
-        {/* About Me Intro */}
+        {/* about me */}
         <div className="bg-white dark:bg-[#0d1117] col-span-3 row-span-2 my-1 p-4 rounded-lg border-2 dark:border-[#24292f]">
           <div className="flex items-center justify-between">
             <Image
@@ -86,7 +85,8 @@ const Main = () => {
                 <span className="text-green-400 hover:underline cursor-pointer animate-pulse">
                   music.
                 </span>
-              </Link>{" "}
+              </Link>
+              {" "}This Website looks great in <span>Dark Mode <Moon /></span>  
             </p>
             <div className="flex space-x-5 pt-2">
               <div>
@@ -103,65 +103,41 @@ const Main = () => {
                   <Copy className="text-gray-500 hover:text-white" size={14} />
                 </button>
               </div>
-              <div className="flex text-sm space-x-2 items-center text-gray-500 cursor-default">
-                <p>This Website looks great in Dark Mode</p>
-                <span>
-                  <svg
-                    className="w-4 h-4"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-                  </svg>
-                </span>
-              </div>
+              <Link href="#Contact">
+                <p className="text-sm flex space-x-2 items-center cursor-pointer">
+                  <span className="text-gray-500 ">
+                    {" "}
+                    Get your Prices and Packages
+                  </span>
+                  <Package
+                    className="flex text-gray-500"
+                    size={16}
+                  />
+                </p>
+              </Link>
             </div>
           </div>
         </div>
         {/* notioncheck project was here */}
         {/* project 1 section */}
-        <div className=" hidden p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
-          <div>
-            {/* Img width= 400 and height= 200 */}
-          <Image
-              src="/Assets/Project-Test.svg"
-              width='600'
-              height={300}
-              alt="Julius Eghan Memoji"
-              className="rounded-t-md"
-            />
-          </div>
-          <div className="p-2">
-            <div className="flex flex-row items-center justify-between">
-              <h1>Project Name</h1>
-              <div className="flex flex-row items-center space-x-2 bg-blue-200 px-3 py-1 rounded-md text-sm">
-                <p>View Project</p>
-                <span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                </svg>
-                </span>
-              </div>
-            </div>
-            <div className="text-sm mt-1">
-              <p>This is the projects short description that should not take more space.</p>
-            </div>
-          </div>
-        </div>
-        {/* project 2 section */}
-        <div className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
+        <div
+          className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
+        >
           <div>Project 1</div>
         </div>
         {/* project 2 section */}
-        <div className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
+        <div
+          className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
+        >
           <div>Project 2</div>
         </div>
         {/* project 3 section */}
-        <div className="opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
+        <div
+          className="opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
+        >
           <div>Project 3</div>
         </div>
-        {/* What I do best */}
+        {/* project 4 section */}
         <div className=" col-span-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg text-sm">
           <div className="flex">
             <h1 className="relative ml-6 my-3 mt-2">
@@ -181,7 +157,7 @@ const Main = () => {
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mr-2 md:mb-3 text-blue-300"
+                  className="h-6 w-6 mr-2 md:mb-3"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -202,7 +178,7 @@ const Main = () => {
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mr-2 md:mb-3 text-yellow-300"
+                  className="h-6 w-6 mr-2 md:mb-3"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -215,15 +191,13 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">
-                Building engaging user experience.
-              </h2>
+              <h2 className="md:text-center">Building engaging user experience.</h2>
             </div>
             <div className="flex items-center md:flex-col py-2 px-4">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mr-2 md:mb-3 text-green-300"
+                  className="h-6 w-6 mr-2 md:mb-3"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -236,15 +210,13 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">
-                Providing Satisfactory Customer Services
-              </h2>
+              <h2 className="md:text-center">Providing Satisfactory Customer Services</h2>
             </div>
             <div className="flex items-center md:flex-col py-2 px-4">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mr-2 md:mb-3 text-gray-400"
+                  className="h-6 w-6 mr-2 md:mb-3"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -262,9 +234,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">
-                Maximizing Client&apos;s operations effectively
-              </h2>
+              <h2 className="md:text-center">Maximizing Client&apos;s operations effectively</h2>
             </div>
           </div>
         </div>

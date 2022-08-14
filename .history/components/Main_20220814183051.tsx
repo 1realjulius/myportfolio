@@ -121,7 +121,7 @@ const Main = () => {
         </div>
         {/* notioncheck project was here */}
         {/* project 1 section */}
-        <div className=" hidden p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
+        <div className="p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg  cursor-not-allowed">
           <div>
             {/* Img width= 400 and height= 200 */}
           <Image
@@ -148,10 +148,6 @@ const Main = () => {
               <p>This is the projects short description that should not take more space.</p>
             </div>
           </div>
-        </div>
-        {/* project 2 section */}
-        <div className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
-          <div>Project 1</div>
         </div>
         {/* project 2 section */}
         <div className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">

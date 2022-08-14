@@ -151,7 +151,7 @@ const Main = () => {
         </div>
         {/* project 2 section */}
         <div className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
-          <div>Project 1</div>
+          <div>Project 2</div>
         </div>
         {/* project 2 section */}
         <div className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
