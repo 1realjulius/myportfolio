@@ -13,7 +13,7 @@ import {
   PhoneCall,
   Speaker,
   Twitter,
-} from "react-feather";21
+} from "react-feather";
 
 const Main = () => {
   return (
@@ -112,7 +112,7 @@ const Main = () => {
                     Get your Prices and Packages
                   </span>
                   <Package
-                    className="flex text-gray-500"
+                    className="flex text-gray-500 animate-headShake"
                     size={16}
                   />
                 </p>
@@ -123,21 +123,24 @@ const Main = () => {
         {/* notioncheck project was here */}
         {/* project 1 section */}
         <div
+          id="Projects"
           className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 1</div>
+          <div>Project Coming Soon</div>
         </div>
         {/* project 2 section */}
         <div
+          id="Projects"
           className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 2</div>
+          <div>Project 2 Coming Soon</div>
         </div>
         {/* project 3 section */}
         <div
+          id="Projects"
           className="opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 3</div>
+          <div>Currently working on my project 3</div>
         </div>
         {/* project 4 section */}
         <div className=" col-span-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg text-sm">
@@ -583,7 +586,7 @@ const Main = () => {
                       </span>
                     </div>
                     <Speaker
-                      className="text-[#2EBD59]  hover:animate-wobble "
+                      className="text-[#2EBD59] animate-wobble "
                       size={22}
                     />
                   </div>
@@ -696,7 +699,7 @@ const Main = () => {
                       </span>
                       <span>
                         <svg
-                          className="w-6 h-6 hover:animate-wiggle"
+                          className="w-6 h-6 animate-wiggle"
                           width="884"
                           height="1279"
                           viewBox="0 0 884 1279"

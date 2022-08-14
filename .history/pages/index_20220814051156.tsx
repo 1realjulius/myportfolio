@@ -7,7 +7,7 @@ import Main from '../components/Main'
 
 const Home: NextPage = () => {
   return (
-    <div className="scroll-smooth flex min-h-screen flex-col  bg-[#f7f2f2] dark:bg-[#090c10]  font-cadizMedium  md:px-8 md:pb-8">
+    <html className="scroll-smooth flex min-h-screen flex-col  bg-[#f7f2f2] dark:bg-[#090c10]  font-cadizMedium  md:px-8 md:pb-8">
       <Head>
         <title>Julius Eghan</title>
         <meta name="description" content="Website and Software Developer from Ghana." />
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
       <Banner/>
       <Main/>
       <Footer/>
-    </div>
+    </html>
   )
 }
 

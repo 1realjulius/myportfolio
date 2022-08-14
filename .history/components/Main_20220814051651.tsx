@@ -123,21 +123,24 @@ const Main = () => {
         {/* notioncheck project was here */}
         {/* project 1 section */}
         <div
+          id="Projects"
           className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 1</div>
+          <div>Project Coming Soon</div>
         </div>
         {/* project 2 section */}
         <div
+          id="Projects"
           className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 2</div>
+          <div>Project 2 Coming Soon</div>
         </div>
         {/* project 3 section */}
         <div
+          id="Projects"
           className="opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 3</div>
+          <div>Currently working on my project 3</div>
         </div>
         {/* project 4 section */}
         <div className=" col-span-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg text-sm">

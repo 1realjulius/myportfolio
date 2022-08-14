@@ -13,7 +13,8 @@ import {
   PhoneCall,
   Speaker,
   Twitter,
-} from "react-feather";21
+} from "react-feather";
+import PricesAndPackages from "./PricesAndPackages";
 
 const Main = () => {
   return (
@@ -78,7 +79,7 @@ const Main = () => {
                 >
                   <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path>
                 </svg>
-                <span className="relative">Julius Eghan</span>
+                <span className="relative">Julius B. Eghan</span>
               </span>
               a Freelance Website and Software Developer from Accra, Ghana 🇬🇭. I
               make professional websites and mobile apps with React Js and React
@@ -105,14 +106,14 @@ const Main = () => {
                   <Copy className="text-gray-500 hover:text-white" size={14} />
                 </button>
               </div>
-              <Link href="#Contact">
+              <Link href="#PricesAndPackages">
                 <p className="text-sm flex space-x-2 items-center cursor-pointer">
                   <span className="text-gray-500 ">
                     {" "}
-                    Get your Prices and Packages
+                    Check Out My Prices and Packages
                   </span>
                   <Package
-                    className="flex text-gray-500"
+                    className="flex text-gray-500 animate-headShake"
                     size={16}
                   />
                 </p>
@@ -123,26 +124,29 @@ const Main = () => {
         {/* notioncheck project was here */}
         {/* project 1 section */}
         <div
+          id="Projects"
           className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 1</div>
+          <div>Project Coming Soon</div>
         </div>
         {/* project 2 section */}
         <div
+          id="Projects"
           className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 2</div>
+          <div>Project 2 Coming Soon</div>
         </div>
         {/* project 3 section */}
         <div
+          id="Projects"
           className="opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 3</div>
+          <div>Currently working on my project 3</div>
         </div>
         {/* project 4 section */}
         <div className=" col-span-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg text-sm">
           <div className="flex">
-            <h1 className="relative ml-6 my-3 mt-2">
+            <h1 className="relative ml-6 my-1 mt-2">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 418 42"
@@ -172,7 +176,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">
+              <h2>
                 Provide Affordable and customized digital Solutions.
               </h2>
             </div>
@@ -193,7 +197,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">Building engaging user experience.</h2>
+              <h2>Building engaging user experience.</h2>
             </div>
             <div className="flex items-center md:flex-col py-2 px-4">
               <span>
@@ -212,7 +216,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">Providing Satisfactory Customer Services</h2>
+              <h2>Providing Satisfactory Customer Services</h2>
             </div>
             <div className="flex items-center md:flex-col py-2 px-4">
               <span>
@@ -236,7 +240,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">Maximizing Client&apos;s operations effectively</h2>
+              <h2>Maximizing Client&apos;s operations effectively</h2>
             </div>
           </div>
         </div>
@@ -583,7 +587,7 @@ const Main = () => {
                       </span>
                     </div>
                     <Speaker
-                      className="text-[#2EBD59]  hover:animate-wobble "
+                      className="text-[#2EBD59] animate-wobble "
                       size={22}
                     />
                   </div>
@@ -696,7 +700,7 @@ const Main = () => {
                       </span>
                       <span>
                         <svg
-                          className="w-6 h-6 hover:animate-wiggle"
+                          className="w-6 h-6 animate-wiggle"
                           width="884"
                           height="1279"
                           viewBox="0 0 884 1279"
@@ -763,6 +767,13 @@ const Main = () => {
                       </span>
                     </div>
                   </Link>
+                </div>
+              </div>
+              <div>
+                <div className="m-1 ">
+                  <div id="PricesAndPackages" className="cursor-pointer">
+                    <PricesAndPackages />
+                  </div>
                 </div>
               </div>
             </div>

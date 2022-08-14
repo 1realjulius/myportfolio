@@ -13,7 +13,8 @@ import {
   PhoneCall,
   Speaker,
   Twitter,
-} from "react-feather";21
+} from "react-feather";
+import PricesAndPackages from "./PricesAndPackages";
 
 const Main = () => {
   return (
@@ -105,14 +106,14 @@ const Main = () => {
                   <Copy className="text-gray-500 hover:text-white" size={14} />
                 </button>
               </div>
-              <Link href="#Contact">
+              <Link href="#PricesAndPackages">
                 <p className="text-sm flex space-x-2 items-center cursor-pointer">
                   <span className="text-gray-500 ">
                     {" "}
-                    Get your Prices and Packages
+                    Check Out My Prices and Packages
                   </span>
                   <Package
-                    className="flex text-gray-500"
+                    className="flex text-gray-500 animate-headShake"
                     size={16}
                   />
                 </p>
@@ -123,26 +124,29 @@ const Main = () => {
         {/* notioncheck project was here */}
         {/* project 1 section */}
         <div
+          id="Projects"
           className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 1</div>
+          <div>Project Coming Soon</div>
         </div>
         {/* project 2 section */}
         <div
+          id="Projects"
           className="opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 2</div>
+          <div>Project 2 Coming Soon</div>
         </div>
         {/* project 3 section */}
         <div
+          id="Projects"
           className="opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed"
         >
-          <div>Project 3</div>
+          <div>Currently working on my project 3</div>
         </div>
         {/* project 4 section */}
         <div className=" col-span-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg text-sm">
           <div className="flex">
-            <h1 className="relative ml-6 my-3 mt-2">
+            <h1 className="relative ml-6 my-1 mt-2">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 418 42"
@@ -172,7 +176,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">
+              <h2>
                 Provide Affordable and customized digital Solutions.
               </h2>
             </div>
@@ -193,7 +197,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">Building engaging user experience.</h2>
+              <h2>Building engaging user experience.</h2>
             </div>
             <div className="flex items-center md:flex-col py-2 px-4">
               <span>
@@ -212,7 +216,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">Providing Satisfactory Customer Services</h2>
+              <h2>Providing Satisfactory Customer Services</h2>
             </div>
             <div className="flex items-center md:flex-col py-2 px-4">
               <span>
@@ -236,7 +240,7 @@ const Main = () => {
                   />
                 </svg>
               </span>
-              <h2 className="md:text-center">Maximizing Client&apos;s operations effectively</h2>
+              <h2>Maximizing Client&apos;s operations effectively</h2>
             </div>
           </div>
         </div>
@@ -583,7 +587,7 @@ const Main = () => {
                       </span>
                     </div>
                     <Speaker
-                      className="text-[#2EBD59]  hover:animate-wobble "
+                      className="text-[#2EBD59] animate-wobble "
                       size={22}
                     />
                   </div>
@@ -696,7 +700,7 @@ const Main = () => {
                       </span>
                       <span>
                         <svg
-                          className="w-6 h-6 hover:animate-wiggle"
+                          className="w-6 h-6 animate-wiggle"
                           width="884"
                           height="1279"
                           viewBox="0 0 884 1279"
@@ -763,6 +767,13 @@ const Main = () => {
                       </span>
                     </div>
                   </Link>
+                </div>
+              </div>
+              <div>
+                <div className="m-1 ">
+                  <div id="PricesAndPackages" className="cursor-pointer">
+                    <PricesAndPackages />
+                  </div>
                 </div>
               </div>
             </div>
