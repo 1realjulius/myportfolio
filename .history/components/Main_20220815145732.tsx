@@ -105,12 +105,13 @@ const Main = () => {
             </div>
           </div>
         </div>
-        {/* Photocos Agency Project section */}
-        <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg">
+        {/* notioncheck project was here */}
+        {/* project 1 section */}
+        <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
           <div>
             {/* Img width= 400 and height= 200 */}
             <Image
-              src="/Assets/Photocos-Agency-Img.svg"
+              src="/Assets/Webnco-Agency-Img.svg"
               width="600"
               height={300}
               alt="Julius Eghan Memoji"
@@ -119,122 +120,18 @@ const Main = () => {
           </div>
           <div className="p-2">
             <div className="flex flex-row items-center justify-between">
-              <div className="flex flex-row items-center space-x-2 ">
-                <div className="bg-[#0d1117] dark:bg-inherit rounded-sm dark:rounded-none dark:flex-none flex dark:p-0 p-1">
-                  <Image
-                    src="/Assets/photocos-logo.png"
-                    width="20"
-                    height="20"
-                    alt="Julius Eghan Memoji"
-                    className=""
-                  />
-                </div>
+              <div className="flex flex-row items-center space-x-2">
+                <Image
+                  src="/Assets/photocos-logo.png"
+                  width="24"
+                  height="24"
+                  alt="Julius Eghan Memoji"
+                  className=""
+                />
                 <h1>Photocos Agency</h1>
               </div>
-              <Link href="https://1realjulius.github.io/Photocos_Agency/">
-                <div className="flex flex-row items-center space-x-2 bg-blue-200  dark:bg-gray-900 px-3 py-1 rounded-md text-sm cursor-pointer">
-                  <p>View Website</p>
-                  <span>
-                    <svg
-                      className="w-4 h-4 hover:animate-wobble"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      ></path>
-                    </svg>
-                  </span>
-                </div>
-              </Link>
-            </div>
-            <div className="text-sm mt-1">
-              <p>A Professional Photgraphy Agency For Your Special Services.</p>
-            </div>
-          </div>
-        </div>
-        {/* Webncos section */}
-        <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg">
-          <div>
-            {/* Img width= 400 and height= 200 */}
-            <Image
-              src="/Assets/PTest1.svg"
-              width="600"
-              height={300}
-              alt="Julius Eghan Memoji"
-              className="rounded-t-md"
-            />
-          </div>
-          <div className="p-2">
-            <div className="flex flex-row items-center justify-between">
-              <div className="flex flex-row items-center">
-                <span>
-                  <svg className="h-6 w-6 " viewBox="0 0 24 24" fill="none">
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M8 6C6.89543 6 6 6.89543 6 8V16C6 17.1046 6.89543 18 8 18H10.5C11.0523 18 11.5 17.5523 11.5 17V12C11.5 10.6193 12.6193 9.5 14 9.5H18V8C18 6.89543 17.1046 6 16 6H8ZM7.25 8C7.25 7.58579 7.58579 7.25 8 7.25H8.01C8.42421 7.25 8.76 7.58579 8.76 8C8.76 8.41421 8.42421 8.75 8.01 8.75H8C7.58579 8.75 7.25 8.41421 7.25 8ZM10 7.25C9.58579 7.25 9.25 7.58579 9.25 8C9.25 8.41421 9.58579 8.75 10 8.75H10.01C10.4242 8.75 10.76 8.41421 10.76 8C10.76 7.58579 10.4242 7.25 10.01 7.25H10Z"
-                      fill="#E879F9"
-                      className="fill-blue-500 "
-                    ></path>
-                    <path
-                      d="M13 12C13 11.4477 13.4477 11 14 11H17C17.5523 11 18 11.4477 18 12V17C18 17.5523 17.5523 18 17 18H14C13.4477 18 13 17.5523 13 17V12Z"
-                      fill="#F0ABFC"
-                      className="fill-blue-600 "
-                    ></path>
-                  </svg>
-                </span>
-                <h1>Webncos</h1>
-              </div>
-              <Link href="https://www.webncos.com/">
-              <div className="flex flex-row items-center space-x-2 bg-blue-200 dark:bg-gray-900 px-3 py-1 rounded-md text-sm cursor-pointer">
-                <p>View Website</p>
-                <span>
-                  <svg
-                    className="w-4 h-4 hover:animate-wobble"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    ></path>
-                  </svg>
-                </span>
-              </div>
-              </Link>
-            </div>
-            <div className="text-sm mt-1">
-              <p>Website and Software Development Agency.</p>
-            </div>
-          </div>
-        </div>
-        {/* project 3 section */}
-        <div className=" opacity-50 flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
-          <div>
-            {/* Img width= 400 and height= 200 */}
-            <Image
-              src="/Assets/PTest2.svg"
-              width="600"
-              height={300}
-              alt="Julius Eghan Memoji"
-              className="rounded-t-md"
-            />
-          </div>
-          <div className="p-2">
-            <div className="flex flex-row items-center justify-between">
-              <h1>Project Coming Soon</h1>
-              <div className="flex flex-row items-center space-x-2 bg-blue-200 dark:bg-gray-900 px-3 py-1 rounded-md text-sm">
-                <p>View Website</p>
+              <div className="flex flex-row items-center space-x-2 bg-blue-200 px-3 py-1 rounded-md text-sm">
+                <p>View Project</p>
                 <span>
                   <svg
                     className="w-4 h-4"
@@ -254,9 +151,110 @@ const Main = () => {
               </div>
             </div>
             <div className="text-sm mt-1">
-              <p>This project is coming soon.</p>
+              <p>
+                This is the projects short description that should not take more
+                space.
+              </p>
             </div>
           </div>
+        </div>
+        {/* project 1 section */}
+        <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
+          <div>
+            {/* Img width= 400 and height= 200 */}
+            <Image
+              src="/Assets/Project-Test.svg"
+              width="600"
+              height={300}
+              alt="Julius Eghan Memoji"
+              className="rounded-t-md"
+            />
+          </div>
+          <div className="p-2">
+            <div className="flex flex-row items-center justify-between">
+              <h1>Project Name</h1>
+              <div className="flex flex-row items-center space-x-2 bg-blue-200 px-3 py-1 rounded-md text-sm">
+                <p>View Project</p>
+                <span>
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div className="text-sm mt-1">
+              <p>
+                This is the projects short description that should not take more
+                space.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* project 1 section */}
+        <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
+          <div>
+            {/* Img width= 400 and height= 200 */}
+            <Image
+              src="/Assets/Project-Test.svg"
+              width="600"
+              height={300}
+              alt="Julius Eghan Memoji"
+              className="rounded-t-md"
+            />
+          </div>
+          <div className="p-2">
+            <div className="flex flex-row items-center justify-between">
+              <h1>Project Name</h1>
+              <div className="flex flex-row items-center space-x-2 bg-blue-200 px-3 py-1 rounded-md text-sm">
+                <p>View Project</p>
+                <span>
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div className="text-sm mt-1">
+              <p>
+                This is the projects short description that should not take more
+                space.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* project 2 section */}
+        <div className=" hidden opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
+          <div>Project 1</div>
+        </div>
+        {/* project 2 section */}
+        <div className=" hidden opacity-50 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
+          <div>Project 2</div>
+        </div>
+        {/* project 3 section */}
+        <div className=" hidden opacity-50  row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex-col border-2 rounded-lg py-8 items-center justify-center cursor-not-allowed">
+          <div>Project 3</div>
         </div>
         {/* What I do best */}
         <div className=" col-span-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f] flex flex-col border-2 rounded-lg text-sm">

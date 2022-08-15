@@ -136,7 +136,7 @@ const Main = () => {
                   <p>View Website</p>
                   <span>
                     <svg
-                      className="w-4 h-4 hover:animate-wobble"
+                      className="w-4 h-4"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -196,7 +196,7 @@ const Main = () => {
                 <p>View Website</p>
                 <span>
                   <svg
-                    className="w-4 h-4 hover:animate-wobble"
+                    className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -233,11 +233,11 @@ const Main = () => {
           <div className="p-2">
             <div className="flex flex-row items-center justify-between">
               <h1>Project Coming Soon</h1>
-              <div className="flex flex-row items-center space-x-2 bg-blue-200 dark:bg-gray-900 px-3 py-1 rounded-md text-sm">
-                <p>View Website</p>
+              <div className="flex flex-row items-center space-x-2 bg-blue-200 px-3 py-1 rounded-md text-sm">
+                <p>View Project</p>
                 <span>
                   <svg
-                    className="w-4 h-4"
+                    className="w-4 h-4 hover:animate-wiggle"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

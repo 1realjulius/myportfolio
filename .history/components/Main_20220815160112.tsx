@@ -136,7 +136,7 @@ const Main = () => {
                   <p>View Website</p>
                   <span>
                     <svg
-                      className="w-4 h-4 hover:animate-wobble"
+                      className="w-4 h-4"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -158,8 +158,8 @@ const Main = () => {
             </div>
           </div>
         </div>
-        {/* Webncos section */}
-        <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg">
+        {/* project 2 section */}
+        <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
           <div>
             {/* Img width= 400 and height= 200 */}
             <Image
@@ -192,11 +192,11 @@ const Main = () => {
                 <h1>Webncos</h1>
               </div>
               <Link href="https://www.webncos.com/">
-              <div className="flex flex-row items-center space-x-2 bg-blue-200 dark:bg-gray-900 px-3 py-1 rounded-md text-sm cursor-pointer">
+              <div className="flex flex-row items-center space-x-2 bg-blue-200 dark:bg-gray-900 px-3 py-1 rounded-md text-sm">
                 <p>View Website</p>
                 <span>
                   <svg
-                    className="w-4 h-4 hover:animate-wobble"
+                    className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -219,7 +219,7 @@ const Main = () => {
           </div>
         </div>
         {/* project 3 section */}
-        <div className=" opacity-50 flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
+        <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg  cursor-not-allowed">
           <div>
             {/* Img width= 400 and height= 200 */}
             <Image
@@ -233,8 +233,8 @@ const Main = () => {
           <div className="p-2">
             <div className="flex flex-row items-center justify-between">
               <h1>Project Coming Soon</h1>
-              <div className="flex flex-row items-center space-x-2 bg-blue-200 dark:bg-gray-900 px-3 py-1 rounded-md text-sm">
-                <p>View Website</p>
+              <div className="flex flex-row items-center space-x-2 bg-blue-200 px-3 py-1 rounded-md text-sm">
+                <p>View Project</p>
                 <span>
                   <svg
                     className="w-4 h-4"
