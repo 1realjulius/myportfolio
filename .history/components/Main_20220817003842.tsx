@@ -11,6 +11,7 @@ import {
   Speaker,
   Twitter,
 } from "react-feather";
+21;
 
 const Main = () => {
   return (
@@ -112,7 +113,7 @@ const Main = () => {
               src="/Assets/Photocos-Agency-Img.svg"
               width="600"
               height={300}
-              alt="Photocos Agency Image"
+              alt="Photocos Agency Umage"
               className="rounded-t-md"
             />
           </div>
@@ -165,7 +166,7 @@ const Main = () => {
               src="/Assets/PTest1.svg"
               width="600"
               height={300}
-              alt="Webncos Image"
+              alt="Julius Eghan Memoji"
               className="rounded-t-md"
             />
           </div>
@@ -225,7 +226,7 @@ const Main = () => {
               src="/Assets/PTest2.svg"
               width="600"
               height={300}
-              alt="Project 3 Image"
+              alt="Julius Eghan Memoji"
               className="rounded-t-md"
             />
           </div>

@@ -275,20 +275,36 @@ const Main = () => {
           <div className="flex flex-col  md:grid md:grid-cols-4 mx-4 mb-4 border-2 dark:border-[#24292f] md:divide-x-2 divide-y-2 md:divide-y-0 dark:divide-[#24292f] rounded-md ">
             <div className="flex items-center md:flex-col py-2 px-4">
               <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mr-2 md:mb-3 text-blue-300"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 32 32"
+                className="h-8 w-8 flex-none"
+              >
+                <rect
+                  width="23"
+                  height="22"
+                  x="3"
+                  y="5"
+                  stroke="#0EA5E9"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  rx="2"
+                ></rect>
+                <rect
+                  width="10"
+                  height="18"
+                  x="24"
+                  y="9"
+                  stroke="#0EA5E9"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  rx="2"
+                ></rect>
+                <circle cx="6" cy="8" r="1" fill="#0EA5E9"></circle>
+                <circle cx="9" cy="8" r="1" fill="#0EA5E9"></circle>
+                <path stroke="#0EA5E9" strokeWidth="1.5" d="M3 11h16"></path>
+              </svg>
               </span>
               <h2 className="md:text-center">
                 Provide Affordable and customized digital Solutions.

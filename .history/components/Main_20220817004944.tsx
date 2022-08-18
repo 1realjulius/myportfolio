@@ -11,6 +11,7 @@ import {
   Speaker,
   Twitter,
 } from "react-feather";
+import profileImg from "../../static/images/profile.jpg";
 
 const Main = () => {
   return (

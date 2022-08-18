@@ -11,6 +11,7 @@ import {
   Speaker,
   Twitter,
 } from "react-feather";
+import profileImg from "/Assets/newmemoji.svg";
 
 const Main = () => {
   return (
@@ -20,7 +21,7 @@ const Main = () => {
         <div className="bg-white dark:bg-[#0d1117] col-span-3 row-span-2 my-1 p-4 rounded-lg border-2 dark:border-[#24292f]">
           <div className="flex items-center justify-between">
             <Image
-              src="/Assets/newmemoji.svg"
+              src={}
               width={72}
               height={72}
               alt="Julius Eghan Memoji"

@@ -11,6 +11,7 @@ import {
   Speaker,
   Twitter,
 } from "react-feather";
+import profileImg from "/Assets/newmemoji.svg";
 
 const Main = () => {
   return (
