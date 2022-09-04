@@ -109,10 +109,9 @@ const Main = () => {
           <div>
             {/* Img width= 400 and height= 200 */}
             <Image
-              src="/Assets/Photocos-Agency-Img 1.webp"
+              src="/Assets/Photocos-Agency-Img.svg"
               width="600"
               height={300}
-              layout='responsive'
               alt="Photocos Agency Image"
               className="rounded-t-md"
             />
@@ -168,7 +167,6 @@ const Main = () => {
               src="/Assets/PTest1.svg"
               width="600"
               height={300}
-              sizes="320 640 750"
               alt="Webncos Image"
               className="rounded-t-md"
             />

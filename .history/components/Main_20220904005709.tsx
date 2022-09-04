@@ -106,15 +106,14 @@ const Main = () => {
         </div>
         {/* Photocos Agency Project section */}
         <div className=" flex p-2 row-span-2 dark:bg-[#0d1117] dark:text-white bg-white dark:border-[#24292f]  flex-col border-2 rounded-lg">
-          <div>
+          <div className="relative">
             {/* Img width= 400 and height= 200 */}
             <Image
-              src="/Assets/Photocos-Agency-Img 1.webp"
-              width="600"
-              height={300}
-              layout='responsive'
+              src="/Assets/Photocos-Agency-Img.svg"
+              layout="fill"
+              sizes="300 600"
               alt="Photocos Agency Image"
-              className="rounded-t-md"
+              className="rounded-t-md top-0"
             />
           </div>
           <div className="p-2">

@@ -11,6 +11,7 @@ import {
   Speaker,
   Twitter,
 } from "react-feather";
+import photoCosImg from '../Assets/Photocos-Agency-Img.svg'
 
 const Main = () => {
   return (
@@ -109,10 +110,7 @@ const Main = () => {
           <div>
             {/* Img width= 400 and height= 200 */}
             <Image
-              src="/Assets/Photocos-Agency-Img 1.webp"
-              width="600"
-              height={300}
-              layout='responsive'
+              src={photoCosImg}
               alt="Photocos Agency Image"
               className="rounded-t-md"
             />
@@ -125,6 +123,7 @@ const Main = () => {
                     src="/Assets/photocos-logo.png"
                     width="20"
                     height="20"
+                    sizes="72 20 50"
                     alt="Julius Eghan Memoji"
                     className=""
                   />
