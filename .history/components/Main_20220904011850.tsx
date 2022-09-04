@@ -165,7 +165,7 @@ const Main = () => {
           <div>
             {/* Img width= 400 and height= 200 */}
             <Image
-              src="/Assets/webncos.webp"
+              src="/Assets/PTest1.svg"
               width="600"
               height={300}
               sizes="320 640 750"
@@ -178,8 +178,8 @@ const Main = () => {
               <div className="flex flex-row items-center p-[2px] rounded-sm bg-white">
                 <Image
                   src="/Assets/webncos-logo-lg.svg"
-                  width="80"
-                  height='18'
+                  width="100"
+                  height='22'
                   alt="Webncos Image"
                   className="rounded-t-md"
                 />

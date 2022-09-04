@@ -165,7 +165,7 @@ const Main = () => {
           <div>
             {/* Img width= 400 and height= 200 */}
             <Image
-              src="/Assets/webncos.webp"
+              src="/Assets/PTest1.svg"
               width="600"
               height={300}
               sizes="320 640 750"
@@ -175,14 +175,16 @@ const Main = () => {
           </div>
           <div className="p-2">
             <div className="flex flex-row items-center justify-between">
-              <div className="flex flex-row items-center p-[2px] rounded-sm bg-white">
+              <div className="flex flex-row items-center">
                 <Image
                   src="/Assets/webncos-logo-lg.svg"
-                  width="80"
-                  height='18'
+                  width="600"
+                  height={300}
+                  sizes="320 640 750"
                   alt="Webncos Image"
                   className="rounded-t-md"
                 />
+                <h1>Webncos</h1>
               </div>
               <Link href="https://www.webncos.com/">
                 <div className="flex flex-row items-center space-x-2 bg-blue-200 dark:bg-gray-900 px-3 py-1 rounded-md text-sm cursor-pointer">

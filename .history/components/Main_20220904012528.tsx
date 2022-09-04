@@ -179,7 +179,7 @@ const Main = () => {
                 <Image
                   src="/Assets/webncos-logo-lg.svg"
                   width="80"
-                  height='18'
+                  height='20'
                   alt="Webncos Image"
                   className="rounded-t-md"
                 />

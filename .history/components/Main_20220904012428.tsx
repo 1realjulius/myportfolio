@@ -178,8 +178,8 @@ const Main = () => {
               <div className="flex flex-row items-center p-[2px] rounded-sm bg-white">
                 <Image
                   src="/Assets/webncos-logo-lg.svg"
-                  width="80"
-                  height='18'
+                  width="100"
+                  height='22'
                   alt="Webncos Image"
                   className="rounded-t-md"
                 />
