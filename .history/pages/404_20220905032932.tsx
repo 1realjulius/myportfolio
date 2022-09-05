@@ -20,7 +20,7 @@ export default function Custom404() {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-4 h-4"
               >
                 <path
                   strokeLinecap="round"
@@ -29,7 +29,7 @@ export default function Custom404() {
                 />
               </svg>
             </span>
-            <h1 className="flex items-center space-x-2 cursor-pointer text-gray-400 text-lg hover:text-white">
+            <h1 className="flex items-center space-x-2 cursor-pointer text-gray-400 text-base hover:text-white">
               <span>Go Back Home.</span>
             </h1>
           </div>

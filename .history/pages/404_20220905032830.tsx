@@ -2,6 +2,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import {
+  ChevronLeft,
+  ChevronsLeft,
+  Copy,
+  ExternalLink,
+  FileText,
+  Home,
+} from "react-feather";
 
 export default function Custom404() {
   return (
@@ -20,7 +28,7 @@ export default function Custom404() {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-6 h-6"
               >
                 <path
                   strokeLinecap="round"
@@ -29,7 +37,8 @@ export default function Custom404() {
                 />
               </svg>
             </span>
-            <h1 className="flex items-center space-x-2 cursor-pointer text-gray-400 text-lg hover:text-white">
+            <ChevronLeft className="text-gray-500" size={20} />
+            <h1 className="flex items-center space-x-2 cursor-pointer text-gray-400 text-base hover:text-white">
               <span>Go Back Home.</span>
             </h1>
           </div>
