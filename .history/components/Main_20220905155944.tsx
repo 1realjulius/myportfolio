@@ -648,7 +648,7 @@ const Main = () => {
               Would you love to create some change in the world 🌍, contact me
               let make it happen.
             </h2>
-            <div className="mt-2 flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
+            <div className=" flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
               <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400 justify-center">
                 <span>
                   <svg
@@ -669,7 +669,7 @@ const Main = () => {
                 <span>Phone Number</span>
               </h1>
               <Link href="tel:+233549321512">
-                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-400 hover:opacity-70 justify-center">
+                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-400 hover:underline justify-center">
                   +233 549 321 512
                 </span>
               </Link>
@@ -693,7 +693,7 @@ const Main = () => {
                 <span>Email</span>
               </h1>
               <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together 💰">
-                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-400 hover:opacity-70 justify-center">
+                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-400 hover:underline justify-center">
                   iamjuliusbusiness@gmail.com
                 </span>
               </Link>

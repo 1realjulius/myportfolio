@@ -648,7 +648,7 @@ const Main = () => {
               Would you love to create some change in the world 🌍, contact me
               let make it happen.
             </h2>
-            <div className="mt-2 flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
+            <div className=" flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
               <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400 justify-center">
                 <span>
                   <svg

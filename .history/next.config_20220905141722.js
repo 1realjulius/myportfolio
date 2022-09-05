@@ -3,6 +3,8 @@ module.exports = {
   images: {
     loader: 'akamai',
     path: '',
+    reactStrictMode: true,
+    assetPrefix: './',
   },
   reactStrictMode: true,
 }

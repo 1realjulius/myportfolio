@@ -648,8 +648,8 @@ const Main = () => {
               Would you love to create some change in the world 🌍, contact me
               let make it happen.
             </h2>
-            <div className="mt-2 flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
-              <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400 justify-center">
+            <div className=" flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
+              <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -669,11 +669,11 @@ const Main = () => {
                 <span>Phone Number</span>
               </h1>
               <Link href="tel:+233549321512">
-                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-400 hover:opacity-70 justify-center">
+                <span className="cursor-pointer py-1 px-2 text-lg text-blue-400 hover:underline">
                   +233 549 321 512
                 </span>
               </Link>
-              <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400 justify-center">
+              <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -693,7 +693,7 @@ const Main = () => {
                 <span>Email</span>
               </h1>
               <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together 💰">
-                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-400 hover:opacity-70 justify-center">
+                <span className="cursor-pointer py-1 px-2 text-lg text-blue-400 hover:underline">
                   iamjuliusbusiness@gmail.com
                 </span>
               </Link>
@@ -957,11 +957,11 @@ const Main = () => {
                         </svg>
                       </span>
                       <h1 className="flex flex-row items-center space-x-2">
-                        <span className="font-ApercuBold text-base text-black">
+                        <span className="font-ApercuBold text-lg text-black">
                           Notioncheck
                         </span>
                         <svg
-                          className="h-6 w-6 hover:animate-headShake"
+                          className="h-6 w-6"
                           viewBox="0 0 200 200"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -992,9 +992,9 @@ const Main = () => {
                       id="BuyMeACoffe"
                       className="flex cursor-pointer justify-between  p-2"
                     >
-                      <h1 className="font-ApercuBold text-lg text-black  flex items-baseline">
-                        <span>E-com Store {''}</span>
-                        <span className="text-xs">- Coming Soon</span>
+                      <h1 className="text-lg text-black  flex items-center">
+                        E-com Store {''}
+                        <span className="text-sm">- Coming Soon</span>
                       </h1>
                       <span>
                         <svg
