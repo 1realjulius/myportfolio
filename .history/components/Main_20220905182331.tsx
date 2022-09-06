@@ -359,7 +359,7 @@ const Main = () => {
           </div>
         </div>
         {/* what i do section */}
-        <div className="row-span-3 flex flex-col gap-2 rounded-lg border-2 bg-white p-2 pt-4 dark:border-[#24292f] dark:bg-[#0d1117]">
+        <div className="row-span-3 flex flex-col gap-2 rounded-lg border-2 bg-white p-2 dark:border-[#24292f] dark:bg-[#0d1117]">
           <div className="flex">
             <h1 className="relative ml-2 mb-1 text-xl">
               <svg
@@ -554,7 +554,7 @@ const Main = () => {
         {/* My Entrepreneur Journey */}
         <div className=" items-center justify-center rounded-lg border-2 bg-white p-2 dark:border-[#24292f] dark:bg-[#0d1117] dark:text-white">
           <div className="mb-1 ml-2 flex">
-            <h1 className=" mb-1 mt-2 text-xl">
+            <h1 className=" mb-1 text-xl">
               <span>My Journey as </span>
               <span className="relative">
                 <svg

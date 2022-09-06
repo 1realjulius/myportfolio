@@ -359,7 +359,7 @@ const Main = () => {
           </div>
         </div>
         {/* what i do section */}
-        <div className="row-span-3 flex flex-col gap-2 rounded-lg border-2 bg-white p-2 pt-4 dark:border-[#24292f] dark:bg-[#0d1117]">
+        <div className="row-span-3 flex flex-col gap-2 rounded-lg border-2 bg-white p-2 dark:border-[#24292f] dark:bg-[#0d1117]">
           <div className="flex">
             <h1 className="relative ml-2 mb-1 text-xl">
               <svg
@@ -554,7 +554,7 @@ const Main = () => {
         {/* My Entrepreneur Journey */}
         <div className=" items-center justify-center rounded-lg border-2 bg-white p-2 dark:border-[#24292f] dark:bg-[#0d1117] dark:text-white">
           <div className="mb-1 ml-2 flex">
-            <h1 className=" mb-1 mt-2 text-xl">
+            <h1 className=" mb-1 text-xl">
               <span>My Journey as </span>
               <span className="relative">
                 <svg
@@ -699,13 +699,13 @@ const Main = () => {
               </Link>
             </div>
             {/* other */}
+            <p className="my-2 mx-4 text-base">More</p>
             <div className="flex items-center justify-center">
               <span className="justify-center px-1 text-center text-base text-gray-400">
                 • I will respond to your message as soon as possible to
                 kickstart your awsome idea •
               </span>
             </div>
-            <p className="my-2 mx-4 text-base">More</p>
             <div className="divide-y-2 rounded-lg  border-2 dark:divide-[#24292f] dark:border-[#24292f]">
               {/* spotify */}
               <div className="  m-1 rounded-md bg-green-200 dark:border-2 dark:border-[#24292f] dark:bg-inherit ">
