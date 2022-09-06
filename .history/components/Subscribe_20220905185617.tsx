@@ -55,7 +55,7 @@ function Subscribe() {
           </button>
         </div>
         {state === 'Error' && (
-          <p className="error-state text-red-600 flex justify-center text-center ">{errorMsg}</p>
+          <p className="error-state text-base p-2 bg-red-300 rounded-lg text-red-600 flex justify-center text-center ">{errorMsg}</p>
         )}
         {state === 'Success' && (
           <p className="text-sm text-green-600 flex justify-center text-center">Awesome, you will be notified!</p>

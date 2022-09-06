@@ -55,9 +55,9 @@ const Footer = () => {
                     as="h3"
                     className=" mx-2 text-lg font-cadizMedium leading-4 text-gray-900 flex flex-col space-y-2"
                   >
-                    <h1 className="text-red-400 flex items-center text-xl space-x-1">
+                    <h1 className="text-red-400 flex items-center space-x-1">
                       <span>
-                        <Calendar className=" animate-wobble" size={22} />
+                        <Calendar className=" animate-wobble" size={18} />
                       </span>
                       <span>
                         <span className="relative">

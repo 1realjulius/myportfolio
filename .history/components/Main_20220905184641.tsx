@@ -669,8 +669,8 @@ const Main = () => {
                 <span>Phone Number</span>
               </h1>
               <Link href="tel:+233549321512">
-                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-600 hover:opacity-70 justify-center">
-                🇬🇭 +233 549 321 512
+                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-400 hover:opacity-70 justify-center">
+                  +233 549 321 512
                 </span>
               </Link>
               <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400 justify-center">
@@ -693,7 +693,7 @@ const Main = () => {
                 <span>Email</span>
               </h1>
               <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together 💰">
-                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-600 hover:opacity-70 justify-center">
+                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-400 hover:opacity-70 justify-center">
                   iamjuliusbusiness@gmail.com
                 </span>
               </Link>
