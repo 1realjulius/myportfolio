@@ -21,7 +21,7 @@ const HireMe = () => {
             </span>            
           </div>
           <p className="text-lg font-cadizMedium text-gray-400">
-            I am experienced with systems like Git, Expo, Web 3 development,
+            I am familiar with systems like Git, Expo, Web 3 development,
             Webflow and Figma. I am dedicated to driving{" "}
             <span className="text-black dark:text-white"> innovation</span> with
             the ability to follow industry and technological trends and
@@ -81,7 +81,7 @@ const HireMe = () => {
           <div className=" p-2">
             <Link href="tel:+233549321512">
               <div className="flex justify-between items-center cursor-pointer">
-                <p className="text-base text-green-600">Call Me, Lets Get to it...</p>
+                <p className="text-base text-green-600">Call Me Now...</p>
                 <Phone className="text-green-600 animate-wobble" size={18} />
               </div>
             </Link>

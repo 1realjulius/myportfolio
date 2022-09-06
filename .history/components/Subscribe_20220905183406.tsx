@@ -24,7 +24,7 @@ function Subscribe() {
   }
 
   return (
-    <div className="">
+    <div className="text-lg">
       <form className="flex flex-col mx-2">
         <div className="col-span-3 sm:col-span-3">
             <div className="mt-3 flex rounded-md shadow-sm">

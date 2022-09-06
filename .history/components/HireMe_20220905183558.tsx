@@ -81,7 +81,7 @@ const HireMe = () => {
           <div className=" p-2">
             <Link href="tel:+233549321512">
               <div className="flex justify-between items-center cursor-pointer">
-                <p className="text-base text-green-600">Call Me, Lets Get to it...</p>
+                <p className="text-base text-green-600">Call Me Now...</p>
                 <Phone className="text-green-600 animate-wobble" size={18} />
               </div>
             </Link>
