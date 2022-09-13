@@ -207,10 +207,7 @@ const Main = () => {
               </Link>
             </div>
             <div className="mt-1 text-lg">
-              <p>
-                Quality and Professional Website and Software Development
-                Agency.
-              </p>
+              <p>Website and Software Development Agency.</p>
             </div>
           </div>
         </div>

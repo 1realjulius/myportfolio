@@ -163,10 +163,10 @@ const Main = () => {
         </div>
         {/* Webncos section */}
         <div className=" row-span-2 flex flex-col rounded-lg border-2 bg-white p-2  dark:border-[#24292f] dark:bg-[#0d1117] dark:text-white">
-          <div className="max-h-[300px] max-w-[600px]">
+          <div>
             {/* Img width= 400 and height= 200 */}
             <Image
-              src="/Assets/wbnco.png"
+              src="/Assets/webncosfeature.png"
               width="600"
               height={300}
               sizes="320 640 750"
@@ -207,10 +207,7 @@ const Main = () => {
               </Link>
             </div>
             <div className="mt-1 text-lg">
-              <p>
-                Quality and Professional Website and Software Development
-                Agency.
-              </p>
+              <p>Website and Software Development Agency.</p>
             </div>
           </div>
         </div>

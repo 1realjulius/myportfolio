@@ -172,6 +172,8 @@ const Main = () => {
               sizes="320 640 750"
               alt="Webncos Image"
               className="rounded-t-md"
+              layout="fill"
+              objectFit="cover"
             />
           </div>
           <div className="p-2">
@@ -207,10 +209,7 @@ const Main = () => {
               </Link>
             </div>
             <div className="mt-1 text-lg">
-              <p>
-                Quality and Professional Website and Software Development
-                Agency.
-              </p>
+              <p>Website and Software Development Agency.</p>
             </div>
           </div>
         </div>

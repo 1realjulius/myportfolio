@@ -14,8 +14,8 @@ import {
 
 const Main = () => {
   return (
-    <div>
-      <div className="flex flex-col gap-2 px-4 py-2 text-black dark:text-white md:grid md:grid-cols-3 md:gap-4 md:px-4">
+    <div className="top-0 z-20">
+      <div className="flex flex-col gap-2 px-4 py-2 text-black dark:text-white md:grid md:grid-cols-3 md:gap-4 md:px-4 z-20">
         {/* About Me Intro */}
         <div className="col-span-3 row-span-2 my-1 rounded-lg border-2 bg-white p-4 dark:border-[#24292f] dark:bg-[#0d1117]">
           <div className="flex items-center justify-between">
@@ -163,10 +163,10 @@ const Main = () => {
         </div>
         {/* Webncos section */}
         <div className=" row-span-2 flex flex-col rounded-lg border-2 bg-white p-2  dark:border-[#24292f] dark:bg-[#0d1117] dark:text-white">
-          <div className="max-h-[300px] max-w-[600px]">
+          <div>
             {/* Img width= 400 and height= 200 */}
             <Image
-              src="/Assets/wbnco.png"
+              src="/Assets/webncos.webp"
               width="600"
               height={300}
               sizes="320 640 750"
@@ -207,10 +207,7 @@ const Main = () => {
               </Link>
             </div>
             <div className="mt-1 text-lg">
-              <p>
-                Quality and Professional Website and Software Development
-                Agency.
-              </p>
+              <p>Website and Software Development Agency.</p>
             </div>
           </div>
         </div>
@@ -429,8 +426,8 @@ const Main = () => {
                 <span className="ml-2.5 font-cadizMedium text-lg">Next.js</span>
               </div>
               <h2 className="font-cadizMedium text-lg">
-                I write clean and functional codes for websites like{" "}
-                <span className="text-blue-400"> E-comerce</span>,{" "}
+                I write clean and functional codes for
+                websites like <span className="text-blue-400"> E-comerce</span>,{" "}
                 <span className="text-blue-400">Portfolio sites</span>,
                 <span className="text-blue-400"> Agency Sites</span> and{" "}
                 <span className="text-blue-400">Saas Sites.</span>
@@ -466,9 +463,9 @@ const Main = () => {
                 </span>
               </div>
               <h2 className="font-cadizMedium text-lg">
-                I code functioanl mobile and desktop apps with one of the best
-                cross-platform frameworks.I can make you a functioal{" "}
-                <span className="text-blue-400">ios</span>,{" "}
+                I code functioanl mobile and desktop apps
+                with one of the best cross-platform frameworks.I can make you a
+                functioal <span className="text-blue-400">ios</span>,{" "}
                 <span className="text-blue-400">android</span>,{" "}
                 <span className="text-blue-400">windows app</span>,{" "}
                 <span className="text-blue-400">mac app</span>, and{" "}
@@ -652,7 +649,7 @@ const Main = () => {
               let make it happen.
             </h2>
             <div className="mt-2 flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
-              <h1 className="flex items-center justify-center space-x-2 py-1 px-2 text-base text-gray-400">
+              <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400 justify-center">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -672,11 +669,11 @@ const Main = () => {
                 <span>Phone Number</span>
               </h1>
               <Link href="tel:+233549321512">
-                <span className="flex cursor-pointer flex-row items-baseline justify-center py-1 px-2 text-lg text-blue-600 hover:opacity-70">
-                  <span className="mr-1 text-xs">🇬🇭 +233</span> 549 321 512
+                <span className="flex flex-row items-baseline cursor-pointer py-1 px-2 text-lg text-blue-600 hover:opacity-70 justify-center">
+                 <span className="text-xs mr-1">🇬🇭 +233</span> 549 321 512
                 </span>
               </Link>
-              <h1 className="flex items-center justify-center space-x-2 py-1 px-2 text-base text-gray-400">
+              <h1 className="flex items-center space-x-2 py-1 px-2 text-base text-gray-400 justify-center">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -696,7 +693,7 @@ const Main = () => {
                 <span>Email</span>
               </h1>
               <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together 💰">
-                <span className="flex cursor-pointer flex-row items-center justify-center py-1 px-2 text-lg text-blue-600 hover:opacity-70">
+                <span className="flex flex-row items-center cursor-pointer py-1 px-2 text-lg text-blue-600 hover:opacity-70 justify-center">
                   iamjuliusbusiness@gmail.com
                 </span>
               </Link>
