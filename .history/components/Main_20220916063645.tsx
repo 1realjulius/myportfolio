@@ -661,7 +661,7 @@ const Main = () => {
             </div>
             <div className="mt-2 flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
               <Link href="tel:+233549321512">
-                <h1 className="flex flex-row items-center justify-between px-4 py-2">
+                <h1 className="flex flex-row items-center justify-between px-4 py-1">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -684,7 +684,7 @@ const Main = () => {
                 </h1>
               </Link>
               <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together 💰">
-                <h1 className="flex flex-row items-center justify-between px-4 py-2">
+                <h1 className="flex flex-row items-center justify-between px-4 py-1">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
