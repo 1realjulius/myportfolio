@@ -30,7 +30,7 @@ const Main = () => {
             <div className="flex flex-row items-center space-x-6">
               <div>
                 <Link href="https://twitter.com/iamjulius_e">
-                  <button className="animate-bounce">
+                  <button className="animate-bounce rounded-full bg-gray-200 p-2">
                     <Twitter
                       className="text-black hover:text-[#1DA1F2] dark:text-white"
                       size={25}
@@ -40,7 +40,7 @@ const Main = () => {
               </div>
               <div>
                 <Link href="https://www.instagram.com/juliuseghan_/">
-                  <button className="">
+                  <button className=" rounded-full bg-gray-200 p-2">
                     <Instagram
                       className="text-black hover:text-[#fb3958] dark:text-white"
                       size={25}

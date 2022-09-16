@@ -40,7 +40,7 @@ const Main = () => {
               </div>
               <div>
                 <Link href="https://www.instagram.com/juliuseghan_/">
-                  <button className="">
+                  <button className=" rounded-full bg-gray-200 p-2">
                     <Instagram
                       className="text-black hover:text-[#fb3958] dark:text-white"
                       size={25}

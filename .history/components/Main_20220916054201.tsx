@@ -81,7 +81,7 @@ const Main = () => {
               make professional websites and mobile apps with React Js and React
               Native. I love making memorable change to the world 🌍 all while
               listening to{" "}
-              <span className="animate-pulse cursor-pointer text-green-400">
+              <span className="animate-pulse cursor-pointer text-green-400 hover:underline">
                 music.
               </span>
             </p>
@@ -667,7 +667,7 @@ const Main = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="h-6 w-6 text-green-600"
+                      className="h-6 w-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -676,7 +676,7 @@ const Main = () => {
                       />
                     </svg>
                   </span>
-                  <span className="flex cursor-pointer flex-row items-baseline justify-center text-lg text-green-600 hover:opacity-70">
+                  <span className="flex cursor-pointer flex-row items-baseline justify-center text-lg text-blue-600 hover:opacity-70">
                     <span className="mr-1">🇬🇭 +233</span> 549 321 512
                   </span>
                 </h1>
@@ -690,7 +690,7 @@ const Main = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="h-6 w-6 text-blue-600"
+                      className="h-6 w-6"
                     >
                       <path
                         strokeLinecap="round"

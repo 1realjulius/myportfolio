@@ -81,9 +81,11 @@ const Main = () => {
               make professional websites and mobile apps with React Js and React
               Native. I love making memorable change to the world 🌍 all while
               listening to{" "}
-              <span className="animate-pulse cursor-pointer text-green-400">
-                music.
-              </span>
+              <Link href="#Spotify">
+                <span className="animate-pulse cursor-pointer text-green-400 hover:underline">
+                  music.
+                </span>
+              </Link>{" "}
             </p>
             <div className="flex space-x-5 pt-2">
               <div className="flex cursor-default items-center space-x-2 text-sm text-gray-500">
@@ -646,20 +648,21 @@ const Main = () => {
               </h1>
             </div>
             <h2 className="px-2 font-cadizMedium text-lg">
-              Contact me let&apos;s make dreams happen.
+              Would you love to create some change in the world 🌍, contact me
+              let make it happen.
             </h2>
-            <div className="flex flex-row items-center justify-center py-2">
+            <div className="flex flex-row items-center justify-center">
               <Image
-                src="/Assets/Julius_Eghan.jpg"
-                width={200}
-                height={200}
-                alt="Julius Eghan"
-                className="rounded-full"
+                src="/Assets/newmemoji.svg"
+                width={220}
+                height={220}
+                alt="Julius Eghan Memoji"
+                className=""
               />
             </div>
             <div className="mt-2 flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">
               <Link href="tel:+233549321512">
-                <h1 className="flex flex-row items-center justify-between px-4 py-1">
+                <h1 className="flex flex-row justify-between">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -667,7 +670,7 @@ const Main = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="h-6 w-6 text-green-600"
+                      className="h-4 w-4"
                     >
                       <path
                         strokeLinecap="round"
@@ -676,13 +679,13 @@ const Main = () => {
                       />
                     </svg>
                   </span>
-                  <span className="flex cursor-pointer flex-row items-baseline justify-center text-lg text-green-600 hover:opacity-70">
-                    <span className="mr-1">🇬🇭 +233</span> 549 321 512
+                  <span className="flex cursor-pointer flex-row items-baseline justify-center py-1 px-2 text-lg text-blue-600 hover:opacity-70">
+                    <span className="mr-1 text-xs">🇬🇭 +233</span> 549 321 512
                   </span>
                 </h1>
               </Link>
               <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together 💰">
-                <h1 className="flex flex-row items-center justify-between px-4 py-1">
+                <h1 className="flex flex-row justify-between">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -690,7 +693,7 @@ const Main = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="h-6 w-6 text-blue-600"
+                      className="h-4 w-4"
                     >
                       <path
                         strokeLinecap="round"
@@ -699,7 +702,7 @@ const Main = () => {
                       />
                     </svg>
                   </span>
-                  <span className="flex cursor-pointer flex-row items-center justify-center text-lg text-blue-600 hover:opacity-70">
+                  <span className="flex cursor-pointer flex-row items-center justify-center py-1 px-2 text-lg text-blue-600 hover:opacity-70">
                     iamjuliusbusiness@gmail.com
                   </span>
                 </h1>
@@ -712,7 +715,8 @@ const Main = () => {
                 kickstart your awsome idea •
               </span>
             </div>
-            <div className="my-2 divide-y-2 rounded-lg  border-2 dark:divide-[#24292f] dark:border-[#24292f]">
+            <p className="my-2 mx-4 text-base">More</p>
+            <div className="divide-y-2 rounded-lg  border-2 dark:divide-[#24292f] dark:border-[#24292f]">
               {/* Buy me a coffe */}
               <div>
                 <div className="  m-1 rounded-md bg-[#ffdd00] ">

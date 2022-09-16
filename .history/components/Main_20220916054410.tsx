@@ -676,7 +676,7 @@ const Main = () => {
                       />
                     </svg>
                   </span>
-                  <span className="flex cursor-pointer flex-row items-baseline justify-center text-lg text-green-600 hover:opacity-70">
+                  <span className="flex cursor-pointer flex-row items-baseline justify-center text-lg text-blue-600 hover:opacity-70">
                     <span className="mr-1">🇬🇭 +233</span> 549 321 512
                   </span>
                 </h1>
