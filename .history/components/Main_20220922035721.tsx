@@ -19,16 +19,13 @@ const Main = () => {
         {/* About Me Intro */}
         <div className="col-span-3 row-span-2 my-1 rounded-lg border-2 bg-white p-4 dark:border-[#24292f] dark:bg-[#0d1117]">
           <div className="flex items-center justify-between">
-            <div className="relative flex h-[80px] w-[80px] items-center">
-              <Image
-                src="/Assets/newmemoji.svg"
-                // width={72}
-                // height={72}
-                layout="fill"
-                alt="Julius Eghan Memoji"
-                className="absolute animate-headShake object-cover"
-              />
-            </div>
+            <Image
+              src="/Assets/newmemoji.svg"
+              width={72}
+              height={72}
+              alt="Julius Eghan Memoji"
+              className=" animate-headShake"
+            />
             {/* put the dark mode toggle here */}
             <div className="flex flex-row items-center space-x-6">
               <div>
@@ -117,7 +114,7 @@ const Main = () => {
               // height={300}
               layout="fill"
               alt="Photocos Agency Image"
-              className="rounded-t-md object-cover"
+              className="rounded-t-md"
             />
           </div>
           <div className="p-2">
@@ -163,16 +160,16 @@ const Main = () => {
           </div>
         </div>
         {/* Webncos section */}
-        <div className=" row-span-2  flex flex-col items-center rounded-lg border-2 bg-white p-2  dark:border-[#24292f] dark:bg-[#0d1117] dark:text-white">
-          <div className="relative h-[200px] w-[380px] items-center justify-center">
+        <div className=" row-span-2 flex flex-col rounded-lg border-2 bg-white p-2  dark:border-[#24292f] dark:bg-[#0d1117] dark:text-white">
+          <div className="max-h-[300px] max-w-[600px]">
             {/* Img width= 400 and height= 200 */}
             <Image
               src="/Assets/wbnco.png"
-              // width="600"
-              // height={300}
-              layout="fill"
+              width="600"
+              height={300}
+              sizes="320 640 750"
               alt="Webncos Image"
-              className="rounded-t-md object-cover"
+              className="rounded-t-md"
             />
           </div>
           <div className="p-2">
@@ -217,16 +214,15 @@ const Main = () => {
         </div>
         {/* project 3 section */}
         <div className=" row-span-2 flex cursor-not-allowed flex-col rounded-lg border-2 bg-white p-2  opacity-50 dark:border-[#24292f] dark:bg-[#0d1117]  dark:text-white">
-          <div className="relative h-[200px] w-[380px] items-center justify-center">
+          <div>
             {/* Img width= 400 and height= 200 */}
             <Image
               src="/Assets/PTest2.svg"
-              // width="600"
-              // height={300}
-              layout="fill"
+              width="600"
+              height={300}
               sizes="320 640 750"
               alt="Project 3 Image"
-              className="rounded-t-md object-cover"
+              className="rounded-t-md"
             />
           </div>
           <div className="p-2">
@@ -653,25 +649,14 @@ const Main = () => {
               Give me Call or Email let&apos;s make dreams happen.
             </h2>
             <div className="flex flex-row items-center justify-center py-2">
-              <div className="relative flex h-[210px] w-[210px] rounded-full border-4 border-gray-300 dark:border-[#24292f]">
+              <div className="relative flex h-[210px] w-[210px] items-center justify-center rounded-full border-2 border-gray-300 dark:border-[#24292f]">
                 <Image
                   src="/Assets/Julius_Eghan.jpg"
-                  // width={200}
-                  // height={200}
-                  layout="fill"
+                  width={200}
+                  height={200}
                   alt="Julius Eghan"
-                  className="absolute rounded-full object-cover"
+                  className="absolute rounded-full"
                 />
-                <div className="absolute -bottom-2 -right-2 flex h-[40px] w-[80px] items-center justify-center">
-                  <Image
-                    src="/Assets/ghanaflag.svg"
-                    // width={200}
-                    // height={200}
-                    layout="fill"
-                    alt="Julius Eghan"
-                    className="object-cover"
-                  />
-                </div>
               </div>
             </div>
             <div className="mt-2 flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">

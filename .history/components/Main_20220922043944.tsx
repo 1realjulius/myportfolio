@@ -660,9 +660,9 @@ const Main = () => {
                   // height={200}
                   layout="fill"
                   alt="Julius Eghan"
-                  className="absolute rounded-full object-cover"
+                  className="absolute rounded-full"
                 />
-                <div className="absolute -bottom-2 -right-2 flex h-[40px] w-[80px] items-center justify-center">
+                <div className=" absolute -bottom-2 -right-2 flex h-[40px] w-[80px] items-center justify-center">
                   <Image
                     src="/Assets/ghanaflag.svg"
                     // width={200}

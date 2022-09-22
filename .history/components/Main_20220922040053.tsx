@@ -19,16 +19,13 @@ const Main = () => {
         {/* About Me Intro */}
         <div className="col-span-3 row-span-2 my-1 rounded-lg border-2 bg-white p-4 dark:border-[#24292f] dark:bg-[#0d1117]">
           <div className="flex items-center justify-between">
-            <div className="relative flex h-[80px] w-[80px] items-center">
-              <Image
-                src="/Assets/newmemoji.svg"
-                // width={72}
-                // height={72}
-                layout="fill"
-                alt="Julius Eghan Memoji"
-                className="absolute animate-headShake object-cover"
-              />
-            </div>
+            <Image
+              src="/Assets/newmemoji.svg"
+              width={72}
+              height={72}
+              alt="Julius Eghan Memoji"
+              className=" animate-headShake"
+            />
             {/* put the dark mode toggle here */}
             <div className="flex flex-row items-center space-x-6">
               <div>
@@ -653,25 +650,14 @@ const Main = () => {
               Give me Call or Email let&apos;s make dreams happen.
             </h2>
             <div className="flex flex-row items-center justify-center py-2">
-              <div className="relative flex h-[210px] w-[210px] rounded-full border-4 border-gray-300 dark:border-[#24292f]">
+              <div className="relative flex h-[210px] w-[210px] items-center justify-center rounded-full border-2 border-gray-300 dark:border-[#24292f]">
                 <Image
                   src="/Assets/Julius_Eghan.jpg"
-                  // width={200}
-                  // height={200}
-                  layout="fill"
+                  width={200}
+                  height={200}
                   alt="Julius Eghan"
-                  className="absolute rounded-full object-cover"
+                  className="absolute rounded-full"
                 />
-                <div className="absolute -bottom-2 -right-2 flex h-[40px] w-[80px] items-center justify-center">
-                  <Image
-                    src="/Assets/ghanaflag.svg"
-                    // width={200}
-                    // height={200}
-                    layout="fill"
-                    alt="Julius Eghan"
-                    className="object-cover"
-                  />
-                </div>
               </div>
             </div>
             <div className="mt-2 flex flex-col divide-y-2 rounded-lg border-2 dark:divide-[#24292f] dark:border-[#24292f]">

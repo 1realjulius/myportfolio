@@ -653,23 +653,23 @@ const Main = () => {
               Give me Call or Email let&apos;s make dreams happen.
             </h2>
             <div className="flex flex-row items-center justify-center py-2">
-              <div className="relative flex h-[210px] w-[210px] rounded-full border-4 border-gray-300 dark:border-[#24292f]">
+              <div className="relative flex h-[210px] w-[210px] items-center justify-center rounded-full border-4 border-gray-300 dark:border-[#24292f]">
                 <Image
                   src="/Assets/Julius_Eghan.jpg"
                   // width={200}
                   // height={200}
                   layout="fill"
                   alt="Julius Eghan"
-                  className="absolute rounded-full object-cover"
+                  className="absolute rounded-full"
                 />
-                <div className="absolute -bottom-2 -right-2 flex h-[40px] w-[80px] items-center justify-center">
+                <div className="absolute flex h-[40px] w-[80px] items-center justify-center">
                   <Image
-                    src="/Assets/ghanaflag.svg"
+                    src="/Assets/Julius_Eghan.jpg"
                     // width={200}
                     // height={200}
                     layout="fill"
                     alt="Julius Eghan"
-                    className="object-cover"
+                    className="absolute bottom-0 rounded-full"
                   />
                 </div>
               </div>
