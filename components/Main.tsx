@@ -22,9 +22,9 @@ const Main = () => {
             <div className="relative flex h-[80px] w-[80px] items-center">
               <Image
                 src="/Assets/newmemoji.svg"
-                // width={72}
-                // height={72}
-                layout="fill"
+                width={72}
+                height={72}
+                // layout="fill"
                 alt="Julius Eghan Memoji"
                 className="absolute animate-headShake object-cover"
               />
@@ -113,9 +113,9 @@ const Main = () => {
             {/* Img width= 400 and height= 200 */}
             <Image
               src="/Assets/Photocos-Agency-Img 1.webp"
-              // width="600"
-              // height={300}
-              layout="fill"
+              width="600"
+              height={300}
+              // layout="fill"
               alt="Photocos Agency Image"
               className="rounded-t-md object-cover"
             />
@@ -168,9 +168,9 @@ const Main = () => {
             {/* Img width= 400 and height= 200 */}
             <Image
               src="/Assets/wbnco.png"
-              // width="600"
-              // height={300}
-              layout="fill"
+              width="600"
+              height={300}
+              // layout="fill"
               alt="Webncos Image"
               className="rounded-t-md object-cover"
             />
@@ -221,9 +221,9 @@ const Main = () => {
             {/* Img width= 400 and height= 200 */}
             <Image
               src="/Assets/PTest2.svg"
-              // width="600"
-              // height={300}
-              layout="fill"
+              width="600"
+              height={300}
+              // layout="fill"
               sizes="320 640 750"
               alt="Project 3 Image"
               className="rounded-t-md object-cover"
@@ -656,18 +656,18 @@ const Main = () => {
               <div className="relative flex h-[210px] w-[210px] rounded-full border-4 border-gray-300 dark:border-[#24292f]">
                 <Image
                   src="/Assets/Julius_Eghan.jpg"
-                  // width={200}
-                  // height={200}
-                  layout="fill"
+                  width={200}
+                  height={200}
+                  // layout="fill"
                   alt="Julius Eghan"
                   className="absolute rounded-full object-cover"
                 />
                 <div className="absolute -bottom-2 -right-2 flex h-[40px] w-[80px] items-center justify-center">
                   <Image
                     src="/Assets/ghanaflag.svg"
-                    // width={200}
-                    // height={200}
-                    layout="fill"
+                    width={200}
+                    height={200}
+                    // layout="fill"
                     alt="Julius Eghan"
                     className="object-cover"
                   />
