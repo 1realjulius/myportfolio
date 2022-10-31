@@ -93,8 +93,8 @@ const NavBar = () => {
                         <div className="cursor-pointer border-b-2 border-[#E8EAED]">
                           <Image
                             src="/Assets/footerlogo.png"
-                            width="182px"
-                            height="40px"
+                            width="182"
+                            height="40"
                             alt=""
                             className="object-contain"
                           />
