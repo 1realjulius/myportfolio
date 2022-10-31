@@ -3,11 +3,11 @@ import Head from "next/head";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
-import NewHome from "../components/NewHome";
+import MainHOme from "../components/MainHOme";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col items-center justify-center scroll-smooth  bg-[#f7f2f2] font-cadizMedium  dark:bg-[#090c10]  md:px-8 md:pb-8">
       <Head>
         <title>Julius Eghan</title>
         <meta
@@ -52,10 +52,10 @@ const Home: NextPage = () => {
           media="(prefers-color-scheme: dark)"
         />
       </Head>
-      <div className="">
-        {/* <Banner /> */}
-        <NewHome />
-        {/* <Footer /> */}
+      <div className="max-w-7xl">
+        <Banner />
+        <MainHOme />
+        <Footer />
       </div>
     </div>
   );

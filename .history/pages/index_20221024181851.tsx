@@ -3,7 +3,7 @@ import Head from "next/head";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
-import NewHome from "../components/NewHome";
+import MainHOme from "../components/MainHOme";
 
 const Home: NextPage = () => {
   return (
@@ -52,9 +52,9 @@ const Home: NextPage = () => {
           media="(prefers-color-scheme: dark)"
         />
       </Head>
-      <div className="">
+      <div className="max-w-7xl">
         {/* <Banner /> */}
-        <NewHome />
+        <MainHOme />
         {/* <Footer /> */}
       </div>
     </div>

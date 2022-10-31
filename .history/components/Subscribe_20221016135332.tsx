@@ -68,3 +68,7 @@ function Subscribe() {
   );
 }
 export default Subscribe;
+
+function setInputNumber(value: any) {
+  throw new Error("Function not implemented.");
+}

@@ -7,7 +7,7 @@ import NewHome from "../components/NewHome";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col p-4">
       <Head>
         <title>Julius Eghan</title>
         <meta
