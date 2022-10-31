@@ -49,7 +49,7 @@ const NewHome = () => {
             </svg>
           </div>
           <div>
-            <AnimatePresence mode="sync">
+            <AnimatePresence>
               {open && (
                 <motion.div
                   initial={{ opacity: 0 }}
