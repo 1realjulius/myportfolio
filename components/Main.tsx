@@ -650,7 +650,7 @@ const Main = () => {
               </h1>
             </div>
             <h2 className="px-2 font-cadizMedium text-lg">
-              Give me Call or Email let&apos;s make dreams happen.
+              Give me Call or Email let&apos;s make dreams happen.yes
             </h2>
             <div className="flex flex-row items-center justify-center py-2">
               <div className="relative flex h-[210px] w-[210px] rounded-full border-4 border-gray-300 dark:border-[#24292f]">
